@@ -18,6 +18,9 @@
 		24D230891F12DF2900987AC8 /* MainTable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24D230881F12DF2900987AC8 /* MainTable.storyboard */; };
 		24D2308B1F12E4D300987AC8 /* MainTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D2308A1F12E4D300987AC8 /* MainTableController.swift */; };
 		24D2308D1F12E56100987AC8 /* Overview.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24D2308C1F12E56100987AC8 /* Overview.storyboard */; };
+		24D230901F12EE7A00987AC8 /* glacier_basin_overview.html in Resources */ = {isa = PBXBuildFile; fileRef = 24D2308F1F12EE7A00987AC8 /* glacier_basin_overview.html */; };
+		24D230921F12EE7F00987AC8 /* reflection_lakes_overview.html in Resources */ = {isa = PBXBuildFile; fileRef = 24D230911F12EE7F00987AC8 /* reflection_lakes_overview.html */; };
+		24D230971F12EEE800987AC8 /* HikeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D230961F12EEE800987AC8 /* HikeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,9 @@
 		24D230881F12DF2900987AC8 /* MainTable.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainTable.storyboard; sourceTree = "<group>"; };
 		24D2308A1F12E4D300987AC8 /* MainTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableController.swift; sourceTree = "<group>"; };
 		24D2308C1F12E56100987AC8 /* Overview.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Overview.storyboard; sourceTree = "<group>"; };
+		24D2308F1F12EE7A00987AC8 /* glacier_basin_overview.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = glacier_basin_overview.html; sourceTree = "<group>"; };
+		24D230911F12EE7F00987AC8 /* reflection_lakes_overview.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = reflection_lakes_overview.html; sourceTree = "<group>"; };
+		24D230961F12EEE800987AC8 /* HikeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,8 +93,10 @@
 		24D230601F12DA4200987AC8 /* MeadoWatch */ = {
 			isa = PBXGroup;
 			children = (
+				24D2308E1F12EE6F00987AC8 /* Data */,
 				24D230861F12DEF800987AC8 /* Overview */,
 				24D230871F12DF1300987AC8 /* Navigation */,
+				24D230951F12EEBD00987AC8 /* Resources */,
 				24D230611F12DA4200987AC8 /* AppDelegate.swift */,
 				24D2306B1F12DA4200987AC8 /* Assets.xcassets */,
 				24D2306D1F12DA4200987AC8 /* LaunchScreen.storyboard */,
@@ -125,6 +133,23 @@
 				24D230881F12DF2900987AC8 /* MainTable.storyboard */,
 			);
 			name = Navigation;
+			sourceTree = "<group>";
+		};
+		24D2308E1F12EE6F00987AC8 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				24D230961F12EEE800987AC8 /* HikeViewModel.swift */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		24D230951F12EEBD00987AC8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				24D2308F1F12EE7A00987AC8 /* glacier_basin_overview.html */,
+				24D230911F12EE7F00987AC8 /* reflection_lakes_overview.html */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +240,8 @@
 				24D2308D1F12E56100987AC8 /* Overview.storyboard in Resources */,
 				24D2306F1F12DA4200987AC8 /* LaunchScreen.storyboard in Resources */,
 				24D230891F12DF2900987AC8 /* MainTable.storyboard in Resources */,
+				24D230901F12EE7A00987AC8 /* glacier_basin_overview.html in Resources */,
+				24D230921F12EE7F00987AC8 /* reflection_lakes_overview.html in Resources */,
 				24D2306C1F12DA4200987AC8 /* Assets.xcassets in Resources */,
 				24D230671F12DA4200987AC8 /* MainTabBar.storyboard in Resources */,
 			);
@@ -235,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24D2308B1F12E4D300987AC8 /* MainTableController.swift in Sources */,
+				24D230971F12EEE800987AC8 /* HikeViewModel.swift in Sources */,
 				24D2306A1F12DA4200987AC8 /* MeadoWatch.xcdatamodeld in Sources */,
 				24D230641F12DA4200987AC8 /* MainTabBarController.swift in Sources */,
 				24D230851F12DEF200987AC8 /* OverviewController.swift in Sources */,

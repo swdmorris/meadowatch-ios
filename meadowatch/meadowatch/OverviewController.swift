@@ -8,6 +8,18 @@
 
 import UIKit
 
+protocol HikeOverviewDataSource: class {
+    var overviewHTML: Data { get }
+}
+
 class OverviewController: UIViewController {
+    weak var dataSource: HikeOverviewDataSource!
     
+    @IBOutlet private weak var webview: UIWebView!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        webview.load(dataSource.overviewHTML, mimeType: "text/html", textEncodingName: "UTF-8", baseURL: URL(fileURLWithPath: ""))
+        
+    }
 }
