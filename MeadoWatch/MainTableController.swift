@@ -11,6 +11,7 @@ private enum CellIndex: Int {
     case map = 1
     case photos = 2
     case flowers = 3
+    case booklet = 4
 }
 
 import UIKit
@@ -26,6 +27,8 @@ class MainTableController: UITableViewController {
             print("photos")
         case CellIndex.flowers.rawValue:
             print("flowers")
+        case CellIndex.booklet.rawValue:
+            print("booklet")
         default: break
         }
     }

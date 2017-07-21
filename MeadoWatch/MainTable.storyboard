@@ -125,6 +125,28 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="Js9-rx-AWz">
+                                        <rect key="frame" x="0.0" y="176" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Js9-rx-AWz" id="AR9-t4-R3G">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Full Hike Booklet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XJY-sR-vBQ">
+                                                    <rect key="frame" x="8" y="8" width="326" height="27.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="XJY-sR-vBQ" firstAttribute="top" secondItem="AR9-t4-R3G" secondAttribute="topMargin" id="0F3-3X-wkC"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="XJY-sR-vBQ" secondAttribute="trailing" id="QNq-yw-B2G"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="XJY-sR-vBQ" secondAttribute="bottom" id="SnK-OQ-uu1"/>
+                                                <constraint firstItem="XJY-sR-vBQ" firstAttribute="leading" secondItem="AR9-t4-R3G" secondAttribute="leadingMargin" id="v13-Ng-8v9"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>

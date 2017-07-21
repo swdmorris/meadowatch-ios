@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		245BE2711F1301BE00526306 /* TestGPX.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 245BE2701F1301BE00526306 /* TestGPX.gpx */; };
 		245BE2731F1301D200526306 /* GlacierBasinGPS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 245BE2721F1301D200526306 /* GlacierBasinGPS.plist */; };
+		249D10F21F21C1BF00F81115 /* GlacierBasin_FinalBooklet.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 249D10F11F21C1BF00F81115 /* GlacierBasin_FinalBooklet.pdf */; };
+		249D10F41F21C1C600F81115 /* ReflectionLakes_FinalBooklet.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 249D10F31F21C1C600F81115 /* ReflectionLakes_FinalBooklet.pdf */; };
 		24D230621F12DA4200987AC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D230611F12DA4200987AC8 /* AppDelegate.swift */; };
 		24D230641F12DA4200987AC8 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D230631F12DA4200987AC8 /* MainTabBarController.swift */; };
 		24D230671F12DA4200987AC8 /* MainTabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24D230651F12DA4200987AC8 /* MainTabBar.storyboard */; };
@@ -39,6 +41,8 @@
 /* Begin PBXFileReference section */
 		245BE2701F1301BE00526306 /* TestGPX.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TestGPX.gpx; sourceTree = "<group>"; };
 		245BE2721F1301D200526306 /* GlacierBasinGPS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GlacierBasinGPS.plist; sourceTree = "<group>"; };
+		249D10F11F21C1BF00F81115 /* GlacierBasin_FinalBooklet.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = GlacierBasin_FinalBooklet.pdf; sourceTree = "<group>"; };
+		249D10F31F21C1C600F81115 /* ReflectionLakes_FinalBooklet.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ReflectionLakes_FinalBooklet.pdf; sourceTree = "<group>"; };
 		24D2305E1F12DA4200987AC8 /* MeadoWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeadoWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24D230611F12DA4200987AC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24D230631F12DA4200987AC8 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
@@ -165,6 +169,8 @@
 		24D230951F12EEBD00987AC8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				249D10F11F21C1BF00F81115 /* GlacierBasin_FinalBooklet.pdf */,
+				249D10F31F21C1C600F81115 /* ReflectionLakes_FinalBooklet.pdf */,
 				24D2308F1F12EE7A00987AC8 /* glacier_basin_overview.html */,
 				24D230911F12EE7F00987AC8 /* reflection_lakes_overview.html */,
 				245BE2701F1301BE00526306 /* TestGPX.gpx */,
@@ -190,11 +196,12 @@
 			buildConfigurationList = 24D2307E1F12DA4300987AC8 /* Build configuration list for PBXNativeTarget "MeadoWatch" */;
 			buildPhases = (
 				AE2A9951FA215B786CE46538 /* [CP] Check Pods Manifest.lock */,
-				24D2305A1F12DA4200987AC8 /* Sources */,
 				24D2305B1F12DA4200987AC8 /* Frameworks */,
+				249D10F01F21BF3000F81115 /* ShellScript */,
 				24D2305C1F12DA4200987AC8 /* Resources */,
 				4A1F87E07ED32A7F4EC58C29 /* [CP] Embed Pods Frameworks */,
 				ED75E65139FEA38E51839C6A /* [CP] Copy Pods Resources */,
+				24D2305A1F12DA4200987AC8 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -275,9 +282,11 @@
 				24D230891F12DF2900987AC8 /* MainTable.storyboard in Resources */,
 				24D230901F12EE7A00987AC8 /* glacier_basin_overview.html in Resources */,
 				24D230921F12EE7F00987AC8 /* reflection_lakes_overview.html in Resources */,
+				249D10F41F21C1C600F81115 /* ReflectionLakes_FinalBooklet.pdf in Resources */,
 				24D2306C1F12DA4200987AC8 /* Assets.xcassets in Resources */,
 				24D230671F12DA4200987AC8 /* MainTabBar.storyboard in Resources */,
 				245BE2711F1301BE00526306 /* TestGPX.gpx in Resources */,
+				249D10F21F21C1BF00F81115 /* GlacierBasin_FinalBooklet.pdf in Resources */,
 				245BE2731F1301D200526306 /* GlacierBasinGPS.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,6 +301,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		249D10F01F21BF3000F81115 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "$PODS_ROOT/SwiftGen/bin/swiftgen images MeadoWatch/Assets.xcassets\n$PODS_ROOT/SwiftGen/bin/swiftgen storyboards MeadoWatch";
+		};
 		4A1F87E07ED32A7F4EC58C29 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
