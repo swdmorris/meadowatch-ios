@@ -1,0 +1,7 @@
+platform :ios, '9.0'
+
+use_frameworks!
+
+target 'MeadoWatch' do
+  pod 'SwiftGen', '~> 4.2.1'
+end
