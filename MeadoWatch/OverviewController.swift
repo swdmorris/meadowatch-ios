@@ -8,12 +8,12 @@
 
 import UIKit
 
-protocol HikeOverviewDataSource: class {
+protocol OverviewDataSource: class {
     var overviewHTML: Data { get }
 }
 
 class OverviewController: UIViewController {
-    weak var dataSource: HikeOverviewDataSource!
+    weak var dataSource: OverviewDataSource!
     
     @IBOutlet private weak var webview: UIWebView!
     

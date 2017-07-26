@@ -8,8 +8,17 @@
 
 import MapKit
 
+protocol MapDataSource: class {
+    var gpsPoints: [CLLocation] { get }
+}
+
 class MapController: UIViewController {
+    weak var dataSource: MapDataSource!
+    
     @IBOutlet private weak var mapView: MKMapView!
     
-    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        print(dataSource.gpsPoints)
+    }
 }

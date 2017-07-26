@@ -19,9 +19,10 @@ class MainTabBarController: UITabBarController {
             let glacierBasinController = glacierBasinNavigationController.viewControllers[0] as? MainTableController else {
                 fatalError("MainTabBar.storyboard not properly configured with MainTabBarController")
         }
-        // TODO: setup controllers with data
         reflectionLakesController.title = "Reflection Lakes"
+        reflectionLakesController.hikeIndex = 0
         glacierBasinController.title = "Glacier Basin"
+        glacierBasinController.hikeIndex = 1
     }
 }
 

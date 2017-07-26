@@ -17,12 +17,18 @@ private enum CellIndex: Int {
 import UIKit
 
 class MainTableController: UITableViewController {
+    var hikeIndex: Int!
+    
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         switch indexPath.row {
         case CellIndex.overview.rawValue:
-            print("overview")
+            let overviewController = UIStoryboard(name: "Overview", bundle: Bundle.main).instantiateInitialViewController() as! OverviewController
+            overviewController.dataSource = AppModel.shared.hikes[hikeIndex]
+            navigationController?.pushViewController(overviewController, animated: true)
         case CellIndex.map.rawValue:
-            print("map")
+            let mapController = UIStoryboard(name: "Map", bundle: Bundle.main).instantiateInitialViewController() as! MapController
+            mapController.dataSource = AppModel.shared.hikes[hikeIndex]
+            navigationController?.pushViewController(mapController, animated: true)
         case CellIndex.photos.rawValue:
             print("photos")
         case CellIndex.flowers.rawValue:

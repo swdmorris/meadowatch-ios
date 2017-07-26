@@ -6,16 +6,34 @@
 //  Copyright © 2017 Spencer Morris. All rights reserved.
 //
 
-import Foundation
+import MapKit
 
 class HikeViewModel {
+    init(overviewHTMLFilename: String,
+         gpsPointsFilename: String) {
+        overviewHTMLPath = Bundle.main.path(forResource: overviewHTMLFilename, ofType: "html", inDirectory: "")!
+        self.gpsPointsFilename = gpsPointsFilename
+    }
     
+    fileprivate var overviewHTMLPath: String
+    
+    private var gpsPointsFilename: String
+    fileprivate lazy var plotPoints: [CLLocation] = {
+        let gpsPlist = Bundle.main.path(forResource: self.gpsPointsFilename, ofType: "plist", inDirectory: "")!
+        // TODO
+        return []
+    }()
 }
 
-extension HikeViewModel: HikeOverviewDataSource {
+extension HikeViewModel: OverviewDataSource {
     var overviewHTML: Data {
-        let path = Bundle.main.path(forResource: "glacier_basin_overview", ofType: "html", inDirectory: "")
-        let url = URL(fileURLWithPath: path!)
+        let url = URL(fileURLWithPath: overviewHTMLPath)
         return try! Data(contentsOf: url)
+    }
+}
+
+extension HikeViewModel: MapDataSource {
+    var gpsPoints: [CLLocation] {
+        return plotPoints
     }
 }

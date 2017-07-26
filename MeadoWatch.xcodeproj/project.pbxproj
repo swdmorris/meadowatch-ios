@@ -10,6 +10,7 @@
 		24332B451F2845C900E95A1C /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24332B441F2845C900E95A1C /* MapController.swift */; };
 		24332B471F2845F500E95A1C /* Map.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24332B461F2845F500E95A1C /* Map.storyboard */; };
 		24332B491F28498F00E95A1C /* ReflectionLakesGPS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24332B481F28498F00E95A1C /* ReflectionLakesGPS.plist */; };
+		24332B4D1F284E5500E95A1C /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24332B4C1F284E5500E95A1C /* AppModel.swift */; };
 		245BE2711F1301BE00526306 /* TestGPX.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 245BE2701F1301BE00526306 /* TestGPX.gpx */; };
 		245BE2731F1301D200526306 /* GlacierBasinGPS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 245BE2721F1301D200526306 /* GlacierBasinGPS.plist */; };
 		249D10F21F21C1BF00F81115 /* GlacierBasin_FinalBooklet.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 249D10F11F21C1BF00F81115 /* GlacierBasin_FinalBooklet.pdf */; };
@@ -45,6 +46,7 @@
 		24332B441F2845C900E95A1C /* MapController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
 		24332B461F2845F500E95A1C /* Map.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Map.storyboard; sourceTree = "<group>"; };
 		24332B481F28498F00E95A1C /* ReflectionLakesGPS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ReflectionLakesGPS.plist; sourceTree = "<group>"; };
+		24332B4C1F284E5500E95A1C /* AppModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 		245BE2701F1301BE00526306 /* TestGPX.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TestGPX.gpx; sourceTree = "<group>"; };
 		245BE2721F1301D200526306 /* GlacierBasinGPS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GlacierBasinGPS.plist; sourceTree = "<group>"; };
 		249D10F11F21C1BF00F81115 /* GlacierBasin_FinalBooklet.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = GlacierBasin_FinalBooklet.pdf; sourceTree = "<group>"; };
@@ -178,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				24D230961F12EEE800987AC8 /* HikeViewModel.swift */,
+				24332B4C1F284E5500E95A1C /* AppModel.swift */,
 			);
 			name = Data;
 			sourceTree = "<group>";
@@ -388,6 +391,7 @@
 				24D2308B1F12E4D300987AC8 /* MainTableController.swift in Sources */,
 				24332B451F2845C900E95A1C /* MapController.swift in Sources */,
 				24D230971F12EEE800987AC8 /* HikeViewModel.swift in Sources */,
+				24332B4D1F284E5500E95A1C /* AppModel.swift in Sources */,
 				24D2306A1F12DA4200987AC8 /* MeadoWatch.xcdatamodeld in Sources */,
 				24D230641F12DA4200987AC8 /* MainTabBarController.swift in Sources */,
 				24D230851F12DEF200987AC8 /* OverviewController.swift in Sources */,
