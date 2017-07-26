@@ -18,10 +18,14 @@ class HikeViewModel {
     fileprivate var overviewHTMLPath: String
     
     private var gpsPointsFilename: String
-    fileprivate lazy var plotPoints: [CLLocation] = {
+    fileprivate lazy var flowerPlots: [FlowerPlot] = {
         let gpsPlist = Bundle.main.path(forResource: self.gpsPointsFilename, ofType: "plist", inDirectory: "")!
-        // TODO
-        return []
+        var locations = [CLLocation]()
+        let thing = NSArray(contentsOfFile: gpsPlist)!
+        let array: [FlowerPlot] = thing.map { plotDictionary -> FlowerPlot in
+            return FlowerPlot(json: plotDictionary)
+        }
+        return array
     }()
 }
 
@@ -33,7 +37,7 @@ extension HikeViewModel: OverviewDataSource {
 }
 
 extension HikeViewModel: MapDataSource {
-    var gpsPoints: [CLLocation] {
-        return plotPoints
+    var plots: [FlowerPlot] {
+        return flowerPlots
     }
 }
