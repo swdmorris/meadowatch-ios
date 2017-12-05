@@ -25,6 +25,7 @@ class MapController: UIViewController {
         return self.dataSource.plots.map { plot -> MKAnnotation in
             let pin = MKPointAnnotation()
             pin.coordinate = plot.coordinate.coordinate
+            pin.title = "Plot \(plot.plotNumber)"
             return pin
         }
     }()
@@ -46,9 +47,10 @@ extension MapController: MKMapViewDelegate {
             return annotation.coordinate.latitude == view.annotation!.coordinate.latitude
                 && annotation.coordinate.longitude == view.annotation!.coordinate.longitude
         }
+        
         if let index = index {
             let plot = dataSource.plots[index]
-            print("plot number: \(plot.plotNumber)")
+            showDetails(for: plot)
         }
     }
 }
