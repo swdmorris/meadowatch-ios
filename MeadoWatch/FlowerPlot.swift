@@ -18,8 +18,8 @@ struct FlowerPlot {
     }
     
     private(set) var plotNumber: Int
-    private var latitude: Double
-    private var longitude: Double
+    private(set) var latitude: Double
+    private(set) var longitude: Double
     private var elevation: Double // in meters
     
     var coordinate: CLLocation {

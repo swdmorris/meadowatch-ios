@@ -15,19 +15,29 @@ protocol MapDataSource: class {
 class MapController: UIViewController {
     weak var dataSource: MapDataSource!
     
-    @IBOutlet private weak var mapView: MKMapView!
+    @IBOutlet private weak var mapView: MKMapView! {
+        didSet {
+            mapView.addAnnotations(annotations)
+        }
+    }
     
-    fileprivate var annotations: [MKAnnotation]!
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        annotations = dataSource.plots.map { plot -> MKAnnotation in
+    fileprivate lazy var annotations: [MKAnnotation] = {
+        return self.dataSource.plots.map { plot -> MKAnnotation in
             let pin = MKPointAnnotation()
             pin.coordinate = plot.coordinate.coordinate
+            pin.title = "Plot \(plot.plotNumber)"
             return pin
         }
-        mapView.addAnnotations(annotations)
+    }()
+    
+    private var hasAppeared = false
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        if !hasAppeared {
+            mapView.showAnnotations(annotations, animated: true)
+            hasAppeared = true
+        }
     }
 }
 
@@ -37,9 +47,10 @@ extension MapController: MKMapViewDelegate {
             return annotation.coordinate.latitude == view.annotation!.coordinate.latitude
                 && annotation.coordinate.longitude == view.annotation!.coordinate.longitude
         }
+        
         if let index = index {
             let plot = dataSource.plots[index]
-            print("plot number: \(plot.plotNumber)")
+            showDetails(for: plot)
         }
     }
 }

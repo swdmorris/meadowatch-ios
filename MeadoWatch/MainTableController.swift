@@ -38,4 +38,8 @@ class MainTableController: UITableViewController {
         default: break
         }
     }
+    
+    @IBAction private func otherHikeButtonTapped() {
+        tabBarController!.selectedIndex = (tabBarController!.selectedIndex + 1) % 2
+    }
 }

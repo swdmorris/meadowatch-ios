@@ -30,6 +30,7 @@
 		24D230901F12EE7A00987AC8 /* glacier_basin_overview.html in Resources */ = {isa = PBXBuildFile; fileRef = 24D2308F1F12EE7A00987AC8 /* glacier_basin_overview.html */; };
 		24D230921F12EE7F00987AC8 /* reflection_lakes_overview.html in Resources */ = {isa = PBXBuildFile; fileRef = 24D230911F12EE7F00987AC8 /* reflection_lakes_overview.html */; };
 		24D230971F12EEE800987AC8 /* HikeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D230961F12EEE800987AC8 /* HikeViewModel.swift */; };
+		24FC464E1FD682AA001C4805 /* PlotController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FC464D1FD682AA001C4805 /* PlotController.swift */; };
 		86047C6040606F616A6CF00F /* Pods_MeadoWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B4493C38C62BC9632A0613 /* Pods_MeadoWatch.framework */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +72,7 @@
 		24D2308F1F12EE7A00987AC8 /* glacier_basin_overview.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = glacier_basin_overview.html; sourceTree = "<group>"; };
 		24D230911F12EE7F00987AC8 /* reflection_lakes_overview.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = reflection_lakes_overview.html; sourceTree = "<group>"; };
 		24D230961F12EEE800987AC8 /* HikeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeViewModel.swift; sourceTree = "<group>"; };
+		24FC464D1FD682AA001C4805 /* PlotController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlotController.swift; sourceTree = "<group>"; };
 		54B4493C38C62BC9632A0613 /* Pods_MeadoWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeadoWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D07B53BB8222FAD1F86B4B0 /* Pods-MeadoWatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeadoWatch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MeadoWatch/Pods-MeadoWatch.debug.xcconfig"; sourceTree = "<group>"; };
 		8CD4C5DCF45A7C1506E3F8E0 /* Pods-MeadoWatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeadoWatch.release.xcconfig"; path = "Pods/Target Support Files/Pods-MeadoWatch/Pods-MeadoWatch.release.xcconfig"; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 			children = (
 				24332B441F2845C900E95A1C /* MapController.swift */,
 				24332B461F2845F500E95A1C /* Map.storyboard */,
+				24FC464D1FD682AA001C4805 /* PlotController.swift */,
 			);
 			name = Map;
 			sourceTree = "<group>";
@@ -399,6 +402,7 @@
 				24D2306A1F12DA4200987AC8 /* MeadoWatch.xcdatamodeld in Sources */,
 				24D230641F12DA4200987AC8 /* MainTabBarController.swift in Sources */,
 				24D230851F12DEF200987AC8 /* OverviewController.swift in Sources */,
+				24FC464E1FD682AA001C4805 /* PlotController.swift in Sources */,
 				24D230621F12DA4200987AC8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
