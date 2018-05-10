@@ -2,27 +2,36 @@
 //  MainTabBarController.swift
 //  MeadoWatch
 //
-//  Created by Spencer Morris on 7/9/17.
-//  Copyright © 2017 Spencer Morris. All rights reserved.
+//  Created by Spencer Morris on 5/9/18.
+//  Copyright © 2018 Spencer Morris. All rights reserved.
 //
 
 import UIKit
 
 class MainTabBarController: UITabBarController {
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        guard let viewControllers = viewControllers,
-            let reflectionLakesNavigationController = viewControllers[0] as? UINavigationController,
-            let reflectionLakesController = reflectionLakesNavigationController.viewControllers[0] as? MainTableController,
-            let glacierBasinNavigationController = viewControllers[1] as? UINavigationController,
-            let glacierBasinController = glacierBasinNavigationController.viewControllers[0] as? MainTableController else {
-                fatalError("MainTabBar.storyboard not properly configured with MainTabBarController")
+    private lazy var hikeControllers: [HikeTabBarController] = {
+        var hikeControllers = [HikeTabBarController]()
+        AppModel.shared.hikes.forEach { hikeViewModel in
+            // TODO: init controller from storyboard
+            let hikeController = HikeTabBarController()
+            hikeController.hike = hikeViewModel
+            hikeControllers.append(hikeController)
         }
-        reflectionLakesController.title = "Reflection Lakes"
-        reflectionLakesController.hikeIndex = 0
-        glacierBasinController.title = "Glacier Basin"
-        glacierBasinController.hikeIndex = 1
+        return hikeControllers
+    }()
+    
+    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
+        super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
+        viewControllers = hikeControllers
+        commonInit()
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        commonInit()
+    }
+    
+    private func commonInit() {
+        viewControllers = hikeControllers
     }
 }
-
