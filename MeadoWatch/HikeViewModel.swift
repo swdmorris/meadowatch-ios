@@ -29,6 +29,8 @@ class HikeViewModel {
     }()
 }
 
+// TODO: spmor - pass limited info to child controllers (don't use exclusivly extensions for data delegation)
+
 extension HikeViewModel: OverviewDataSource {
     var overviewHTML: Data {
         let url = URL(fileURLWithPath: overviewHTMLPath)
@@ -39,5 +41,11 @@ extension HikeViewModel: OverviewDataSource {
 extension HikeViewModel: MapDataSource {
     var plots: [FlowerPlot] {
         return flowerPlots
+    }
+}
+
+extension HikeViewModel: SpeciesDataSource {
+    var species: [String] {
+        return ["Flower 1","Flower xyz","Flower abc","Flower 37"]
     }
 }

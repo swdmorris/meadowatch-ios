@@ -12,8 +12,8 @@ class MainTabBarController: UITabBarController {
     private lazy var hikeControllers: [HikeTabBarController] = {
         var hikeControllers = [HikeTabBarController]()
         AppModel.shared.hikes.forEach { hikeViewModel in
-            // TODO: init controller from storyboard
-            let hikeController = HikeTabBarController()
+            let hikeNavigationController = UIStoryboard(name: "HikeTabBarController", bundle: Bundle.main).instantiateInitialViewController() as! UINavigationController
+            let hikeController = hikeNavigationController.viewControllers.first as! HikeTabBarController
             hikeController.hike = hikeViewModel
             hikeControllers.append(hikeController)
         }
@@ -32,6 +32,7 @@ class MainTabBarController: UITabBarController {
     }
     
     private func commonInit() {
+        tabBar.isHidden = true
         viewControllers = hikeControllers
     }
 }

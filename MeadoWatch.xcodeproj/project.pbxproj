@@ -31,6 +31,8 @@
 		24BD03FF20A4100D0006B7A2 /* HikeTabBarController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24BD03FE20A4100D0006B7A2 /* HikeTabBarController.storyboard */; };
 		24BD040320A416E80006B7A2 /* MainTabBarController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24BD040220A416E80006B7A2 /* MainTabBarController.storyboard */; };
 		24BD040520A417150006B7A2 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BD040420A417150006B7A2 /* MainTabBarController.swift */; };
+		24CF0BE420A4AE5D00739C10 /* HikeSpeciesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CF0BE320A4AE5D00739C10 /* HikeSpeciesController.swift */; };
+		24CF0BE720A4AE8E00739C10 /* HikeSpecies.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24CF0BE620A4AE8E00739C10 /* HikeSpecies.storyboard */; };
 		24D230621F12DA4200987AC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D230611F12DA4200987AC8 /* AppDelegate.swift */; };
 		24D2306A1F12DA4200987AC8 /* MeadoWatch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 24D230681F12DA4200987AC8 /* MeadoWatch.xcdatamodeld */; };
 		24D2306C1F12DA4200987AC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24D2306B1F12DA4200987AC8 /* Assets.xcassets */; };
@@ -82,6 +84,8 @@
 		24BD03FE20A4100D0006B7A2 /* HikeTabBarController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HikeTabBarController.storyboard; sourceTree = "<group>"; };
 		24BD040220A416E80006B7A2 /* MainTabBarController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainTabBarController.storyboard; sourceTree = "<group>"; };
 		24BD040420A417150006B7A2 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		24CF0BE320A4AE5D00739C10 /* HikeSpeciesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeSpeciesController.swift; sourceTree = "<group>"; };
+		24CF0BE620A4AE8E00739C10 /* HikeSpecies.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HikeSpecies.storyboard; sourceTree = "<group>"; };
 		24D2305E1F12DA4200987AC8 /* MeadoWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeadoWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24D230611F12DA4200987AC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24D230691F12DA4200987AC8 /* MeadoWatch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MeadoWatch.xcdatamodel; sourceTree = "<group>"; };
@@ -185,9 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				24D2308E1F12EE6F00987AC8 /* Data */,
-				24332B431F2845AB00E95A1C /* Map */,
-				24D230871F12DF1300987AC8 /* Navigation */,
-				24D230861F12DEF800987AC8 /* Overview */,
+				24D230861F12DEF800987AC8 /* Controllers */,
 				24D230951F12EEBD00987AC8 /* Resources */,
 				24D230611F12DA4200987AC8 /* AppDelegate.swift */,
 				24D2306B1F12DA4200987AC8 /* Assets.xcassets */,
@@ -207,13 +209,17 @@
 			path = MeadoWatchTests;
 			sourceTree = "<group>";
 		};
-		24D230861F12DEF800987AC8 /* Overview */ = {
+		24D230861F12DEF800987AC8 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				24332B431F2845AB00E95A1C /* Map */,
+				24D230871F12DF1300987AC8 /* Navigation */,
+				24CF0BE320A4AE5D00739C10 /* HikeSpeciesController.swift */,
+				24CF0BE620A4AE8E00739C10 /* HikeSpecies.storyboard */,
 				24D230841F12DEF200987AC8 /* OverviewController.swift */,
 				24D2308C1F12E56100987AC8 /* Overview.storyboard */,
 			);
-			name = Overview;
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 		24D230871F12DF1300987AC8 /* Navigation */ = {
@@ -362,6 +368,7 @@
 				24BD040320A416E80006B7A2 /* MainTabBarController.storyboard in Resources */,
 				24D230921F12EE7F00987AC8 /* reflection_lakes_overview.html in Resources */,
 				249D10F41F21C1C600F81115 /* ReflectionLakes_FinalBooklet.pdf in Resources */,
+				24CF0BE720A4AE8E00739C10 /* HikeSpecies.storyboard in Resources */,
 				24D2306C1F12DA4200987AC8 /* Assets.xcassets in Resources */,
 				24BD03F220A40E940006B7A2 /* refl_lakes_plot_5.pdf in Resources */,
 				24BD03F920A40E940006B7A2 /* refl_lakes_plot_8.pdf in Resources */,
@@ -464,6 +471,7 @@
 				24D230851F12DEF200987AC8 /* OverviewController.swift in Sources */,
 				24FC464E1FD682AA001C4805 /* PlotController.swift in Sources */,
 				24D230621F12DA4200987AC8 /* AppDelegate.swift in Sources */,
+				24CF0BE420A4AE5D00739C10 /* HikeSpeciesController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
