@@ -9,7 +9,7 @@
 import UIKit
 
 protocol OverviewDataSource: class {
-    var overviewHTML: Data { get }
+    var overviewPdfPath: String { get }
 }
 
 class OverviewController: UIViewController {
@@ -19,7 +19,6 @@ class OverviewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        webview.load(dataSource.overviewHTML, mimeType: "text/html", textEncodingName: "UTF-8", baseURL: URL(fileURLWithPath: ""))
-        
+        webview.loadRequest(URLRequest(url: URL(fileURLWithPath: dataSource.overviewPdfPath)))
     }
 }

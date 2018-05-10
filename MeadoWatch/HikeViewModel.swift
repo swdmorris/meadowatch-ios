@@ -9,13 +9,13 @@
 import MapKit
 
 class HikeViewModel {
-    init(overviewHTMLFilename: String,
+    init(overviewPdfFilename: String,
          gpsPointsFilename: String) {
-        overviewHTMLPath = Bundle.main.path(forResource: overviewHTMLFilename, ofType: "html", inDirectory: "")!
+        self.overviewPdfFilename = overviewPdfFilename
         self.gpsPointsFilename = gpsPointsFilename
     }
     
-    fileprivate var overviewHTMLPath: String
+    fileprivate var overviewPdfFilename: String
     
     private var gpsPointsFilename: String
     fileprivate lazy var flowerPlots: [FlowerPlot] = {
@@ -32,9 +32,8 @@ class HikeViewModel {
 // TODO: spmor - pass limited info to child controllers (don't use exclusivly extensions for data delegation)
 
 extension HikeViewModel: OverviewDataSource {
-    var overviewHTML: Data {
-        let url = URL(fileURLWithPath: overviewHTMLPath)
-        return try! Data(contentsOf: url)
+    var overviewPdfPath: String {
+        return Bundle.main.path(forResource: overviewPdfFilename, ofType: "pdf")!
     }
 }
 

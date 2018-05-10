@@ -16,14 +16,14 @@ class AppModel {
     private lazy var reflectionLakesHike: HikeViewModel = {
         
         let hike = HikeViewModel(
-            overviewHTMLFilename: "reflection_lakes_overview",
+            overviewPdfFilename: "ReflectionLakes_FinalBooklet",
             gpsPointsFilename: "ReflectionLakesGPS")
         return hike
     }()
     
     private lazy var glacierBasinHike: HikeViewModel = {
         let hike = HikeViewModel(
-            overviewHTMLFilename: "glacier_basin_overview",
+            overviewPdfFilename: "GlacierBasin_FinalBooklet",
             gpsPointsFilename: "GlacierBasinGPS")
         return hike
     }()

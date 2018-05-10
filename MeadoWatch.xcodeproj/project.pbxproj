@@ -42,8 +42,6 @@
 		24D230891F12DF2900987AC8 /* MainTable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24D230881F12DF2900987AC8 /* MainTable.storyboard */; };
 		24D2308B1F12E4D300987AC8 /* MainTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D2308A1F12E4D300987AC8 /* MainTableController.swift */; };
 		24D2308D1F12E56100987AC8 /* Overview.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24D2308C1F12E56100987AC8 /* Overview.storyboard */; };
-		24D230901F12EE7A00987AC8 /* glacier_basin_overview.html in Resources */ = {isa = PBXBuildFile; fileRef = 24D2308F1F12EE7A00987AC8 /* glacier_basin_overview.html */; };
-		24D230921F12EE7F00987AC8 /* reflection_lakes_overview.html in Resources */ = {isa = PBXBuildFile; fileRef = 24D230911F12EE7F00987AC8 /* reflection_lakes_overview.html */; };
 		24D230971F12EEE800987AC8 /* HikeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D230961F12EEE800987AC8 /* HikeViewModel.swift */; };
 		24FC464E1FD682AA001C4805 /* PlotController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FC464D1FD682AA001C4805 /* PlotController.swift */; };
 		86047C6040606F616A6CF00F /* Pods_MeadoWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B4493C38C62BC9632A0613 /* Pods_MeadoWatch.framework */; };
@@ -99,8 +97,6 @@
 		24D230881F12DF2900987AC8 /* MainTable.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainTable.storyboard; sourceTree = "<group>"; };
 		24D2308A1F12E4D300987AC8 /* MainTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableController.swift; sourceTree = "<group>"; };
 		24D2308C1F12E56100987AC8 /* Overview.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Overview.storyboard; sourceTree = "<group>"; };
-		24D2308F1F12EE7A00987AC8 /* glacier_basin_overview.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = glacier_basin_overview.html; sourceTree = "<group>"; };
-		24D230911F12EE7F00987AC8 /* reflection_lakes_overview.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = reflection_lakes_overview.html; sourceTree = "<group>"; };
 		24D230961F12EEE800987AC8 /* HikeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeViewModel.swift; sourceTree = "<group>"; };
 		24FC464D1FD682AA001C4805 /* PlotController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlotController.swift; sourceTree = "<group>"; };
 		54B4493C38C62BC9632A0613 /* Pods_MeadoWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeadoWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -249,8 +245,6 @@
 			isa = PBXGroup;
 			children = (
 				24BD03E520A40E7F0006B7A2 /* PDFs */,
-				24D2308F1F12EE7A00987AC8 /* glacier_basin_overview.html */,
-				24D230911F12EE7F00987AC8 /* reflection_lakes_overview.html */,
 				245BE2701F1301BE00526306 /* TestGPX.gpx */,
 				245BE2721F1301D200526306 /* GlacierBasinGPS.plist */,
 				24332B481F28498F00E95A1C /* ReflectionLakesGPS.plist */,
@@ -364,9 +358,7 @@
 				24BD03FF20A4100D0006B7A2 /* HikeTabBarController.storyboard in Resources */,
 				24BD03F320A40E940006B7A2 /* refl_lakes_plot_2.pdf in Resources */,
 				24D230891F12DF2900987AC8 /* MainTable.storyboard in Resources */,
-				24D230901F12EE7A00987AC8 /* glacier_basin_overview.html in Resources */,
 				24BD040320A416E80006B7A2 /* MainTabBarController.storyboard in Resources */,
-				24D230921F12EE7F00987AC8 /* reflection_lakes_overview.html in Resources */,
 				249D10F41F21C1C600F81115 /* ReflectionLakes_FinalBooklet.pdf in Resources */,
 				24CF0BE720A4AE8E00739C10 /* HikeSpecies.storyboard in Resources */,
 				24D2306C1F12DA4200987AC8 /* Assets.xcassets in Resources */,
