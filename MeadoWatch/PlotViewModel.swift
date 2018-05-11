@@ -19,6 +19,12 @@ class PlotViewModel {
     fileprivate(set) var species: [String]
 }
 
+extension PlotViewModel: NavigationBarDataSource {
+    var navigationBarTitle: String {
+        return "Plot \(plot.plotNumber)"
+    }
+}
+
 extension PlotViewModel: MapDataSource {
     var plots: [FlowerPlot] {
         return [plot]
@@ -31,7 +37,7 @@ extension PlotViewModel: MapDataSource {
 
 extension PlotViewModel: OverviewDataSource {
     var overviewPdfPath: String {
-        return plot.overviewPdfFilename
+        return Bundle.main.path(forResource: plot.overviewPdfFilename, ofType: "pdf")!
     }
 }
 

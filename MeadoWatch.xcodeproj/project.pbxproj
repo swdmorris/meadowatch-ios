@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2411FFEA20A61D5D004918AB /* ControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2411FFE920A61D5D004918AB /* ControllerExtensions.swift */; };
 		24332B451F2845C900E95A1C /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24332B441F2845C900E95A1C /* MapController.swift */; };
 		24332B471F2845F500E95A1C /* Map.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24332B461F2845F500E95A1C /* Map.storyboard */; };
 		24332B491F28498F00E95A1C /* ReflectionLakesPlots.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24332B481F28498F00E95A1C /* ReflectionLakesPlots.plist */; };
@@ -60,6 +61,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2411FFE920A61D5D004918AB /* ControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerExtensions.swift; sourceTree = "<group>"; };
 		24332B441F2845C900E95A1C /* MapController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
 		24332B461F2845F500E95A1C /* Map.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Map.storyboard; sourceTree = "<group>"; };
 		24332B481F28498F00E95A1C /* ReflectionLakesPlots.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ReflectionLakesPlots.plist; sourceTree = "<group>"; };
@@ -144,6 +146,14 @@
 			name = Map;
 			sourceTree = "<group>";
 		};
+		24A83DF420A61D2C00C97D0D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2411FFE920A61D5D004918AB /* ControllerExtensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 		24BD03E520A40E7F0006B7A2 /* PDFs */ = {
 			isa = PBXGroup;
 			children = (
@@ -187,6 +197,7 @@
 		24D230601F12DA4200987AC8 /* MeadoWatch */ = {
 			isa = PBXGroup;
 			children = (
+				24A83DF420A61D2C00C97D0D /* Extensions */,
 				24D2308E1F12EE6F00987AC8 /* Data */,
 				24D230861F12DEF800987AC8 /* Controllers */,
 				24D230951F12EEBD00987AC8 /* Resources */,
@@ -470,6 +481,7 @@
 				24332B4D1F284E5500E95A1C /* AppModel.swift in Sources */,
 				24D2306A1F12DA4200987AC8 /* MeadoWatch.xcdatamodeld in Sources */,
 				24D230851F12DEF200987AC8 /* OverviewController.swift in Sources */,
+				2411FFEA20A61D5D004918AB /* ControllerExtensions.swift in Sources */,
 				24D230621F12DA4200987AC8 /* AppDelegate.swift in Sources */,
 				24CF0BE420A4AE5D00739C10 /* HikeSpeciesController.swift in Sources */,
 			);

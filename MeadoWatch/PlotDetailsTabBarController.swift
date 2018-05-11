@@ -11,7 +11,8 @@ import UIKit
 extension UIViewController {
     func showDetails(for plot: FlowerPlot, species: [String]) {
         let plotController = PlotDetailsTabBarController.create(with: plot, species: species)
-        navigationController?.pushViewController(plotController, animated: true)
+        present(plotController, animated: true)
+//        navigationController?.pushViewController(plotController, animated: true)
     }
 }
 
@@ -25,16 +26,28 @@ class PlotDetailsTabBarController: UITabBarController {
                     speciesController.dataSource = viewModel
                 } else if let overviewController = controller as? OverviewController {
                     overviewController.dataSource = viewModel
+                } else {
+                    fatalError("Unknown controller type - check if controller needs a data source")
                 }
             }
         }
     }
     
-    static func create(with plot: FlowerPlot, species: [String]) -> PlotDetailsTabBarController {
-        // TODO: create plot controller from storyboard
-        let plotController = PlotDetailsTabBarController()
+    static func create(with plot: FlowerPlot, species: [String]) -> UINavigationController {
+        let plotNavigationController = UIStoryboard(name: "PlotDetails", bundle: Bundle.main).instantiateInitialViewController() as! UINavigationController
+        let plotController = plotNavigationController.viewControllers.first as! PlotDetailsTabBarController
         let viewModel = PlotViewModel(plot: plot, species: species)
         plotController.viewModel = viewModel
-        return plotController
+        return plotNavigationController
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        let navBarTitle = viewModel?.navigationBarTitle ?? "Plot"
+        setupNavigationBarWith(title: navBarTitle, dismissSelector: #selector(closeButtonPressed))
+    }
+    
+    func closeButtonPressed() {
+        navigationController?.dismiss(animated: true)
     }
 }

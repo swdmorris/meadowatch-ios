@@ -18,8 +18,16 @@ class HikeTabBarController: UITabBarController {
                     speciesController.dataSource = hike
                 } else if let overviewController = controller as? OverviewController {
                     overviewController.dataSource = hike
+                } else {
+                    fatalError("Unknown controller type - check if controller needs a data source")
                 }
             }
         }
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        let navBarTitle = hike?.navigationBarTitle ?? "Hike"
+        setupNavigationBarWith(title: navBarTitle)
     }
 }

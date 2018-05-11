@@ -6,6 +6,10 @@
 //  Copyright © 2017 Spencer Morris. All rights reserved.
 //
 
+protocol NavigationBarDataSource {
+    var navigationBarTitle: String { get }
+}
+
 class AppModel {
     private init() { }
     
@@ -17,14 +21,16 @@ class AppModel {
         
         let hike = HikeViewModel(
             overviewPdfFilename: "ReflectionLakes_FinalBooklet",
-            plotsFilename: "ReflectionLakesPlots")
+            plotsFilename: "ReflectionLakesPlots",
+            hikeDisplayName: "Reflection Lakes")
         return hike
     }()
     
     private lazy var glacierBasinHike: HikeViewModel = {
         let hike = HikeViewModel(
             overviewPdfFilename: "GlacierBasin_FinalBooklet",
-            plotsFilename: "GlacierBasinPlots")
+            plotsFilename: "GlacierBasinPlots",
+            hikeDisplayName: "Glacier Basin")
         return hike
     }()
 }
