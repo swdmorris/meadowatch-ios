@@ -10,6 +10,8 @@ import MapKit
 
 protocol MapDataSource: class {
     var plots: [FlowerPlot] { get }
+    var species: [String] { get }
+    var allowShowPlotDetails: Bool { get }
 }
 
 class MapController: UIViewController {
@@ -39,18 +41,22 @@ class MapController: UIViewController {
             hasAppeared = true
         }
     }
+    
+    fileprivate func plot(for annotationView: MKAnnotationView) -> FlowerPlot? {
+        return dataSource.plots.first { plot -> Bool in
+            annotationView.annotation?.coordinate.latitude == plot.latitude && annotationView.annotation?.coordinate.longitude == plot.longitude
+        }
+    }
 }
 
 extension MapController: MKMapViewDelegate {
     func mapView(_ mapView: MKMapView, didSelect view: MKAnnotationView) {
-        let index = annotations.index { annotation -> Bool in
-            return annotation.coordinate.latitude == view.annotation!.coordinate.latitude
-                && annotation.coordinate.longitude == view.annotation!.coordinate.longitude
+        // TODO: show callout and handle showing details from callout
+        guard dataSource.allowShowPlotDetails else {
+            return
         }
-        
-        if let index = index {
-            let plot = dataSource.plots[index]
-            showDetails(for: plot)
+        if let plot = plot(for: view) {
+            showDetails(for: plot, species: dataSource.species)
         }
     }
 }

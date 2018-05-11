@@ -11,6 +11,8 @@
 		<real>-121.6656709</real>
 		<key>elevation</key>
 		<real>1483</real>
+		<key>overviewPdfFilename</key>
+		<string>glacier_basin_plot_1</string>
 	</dict>
 	<dict>
 		<key>plotNumber</key>
@@ -21,6 +23,8 @@
 		<real>-121.66798</real>
 		<key>elevation</key>
 		<real>1469</real>
+		<key>overviewPdfFilename</key>
+		<string>glacier_basin_plot_2</string>
 	</dict>
 	<dict>
 		<key>plotNumber</key>
@@ -31,6 +35,8 @@
 		<real>-121.67158</real>
 		<key>elevation</key>
 		<real>1500</real>
+		<key>overviewPdfFilename</key>
+		<string>glacier_basin_plot_3</string>
 	</dict>
 	<dict>
 		<key>plotNumber</key>
@@ -41,6 +47,8 @@
 		<real>-121.67803</real>
 		<key>elevation</key>
 		<real>1547</real>
+		<key>overviewPdfFilename</key>
+		<string>glacier_basin_plot_4</string>
 	</dict>
 	<dict>
 		<key>plotNumber</key>
@@ -51,6 +59,8 @@
 		<real>-121.68150</real>
 		<key>elevation</key>
 		<real>1613</real>
+		<key>overviewPdfFilename</key>
+		<string>glacier_basin_plot_5</string>
 	</dict>
 	<dict>
 		<key>plotNumber</key>
@@ -61,6 +71,8 @@
 		<real>-121.68239</real>
 		<key>elevation</key>
 		<real>1582</real>
+		<key>overviewPdfFilename</key>
+		<string>glacier_basin_plot_6</string>
 	</dict>
 	<dict>
 		<key>plotNumber</key>
@@ -71,6 +83,8 @@
 		<real>-121.68362</real>
 		<key>elevation</key>
 		<real>1600</real>
+		<key>overviewPdfFilename</key>
+		<string>glacier_basin_plot_7</string>
 	</dict>
 	<dict>
 		<key>plotNumber</key>
@@ -81,6 +95,8 @@
 		<real>-121.68729</real>
 		<key>elevation</key>
 		<real>1647</real>
+		<key>overviewPdfFilename</key>
+		<string>glacier_basin_plot_8</string>
 	</dict>
 	<dict>
 		<key>plotNumber</key>
@@ -91,6 +107,8 @@
 		<real>-121.69288</real>
 		<key>elevation</key>
 		<real>1713</real>
+		<key>overviewPdfFilename</key>
+		<string>glacier_basin_plot_9</string>
 	</dict>
 	<dict>
 		<key>plotNumber</key>
@@ -101,6 +119,8 @@
 		<real>-121.69640</real>
 		<key>elevation</key>
 		<real>1748</real>
+		<key>overviewPdfFilename</key>
+		<string>glacier_basin_plot_10</string>
 	</dict>
 	<dict>
 		<key>plotNumber</key>
@@ -111,6 +131,8 @@
 		<real>-121.69839</real>
 		<key>elevation</key>
 		<real>1766</real>
+		<key>overviewPdfFilename</key>
+		<string>glacier_basin_plot_11</string>
 	</dict>
 	<dict>
 		<key>plotNumber</key>
@@ -121,6 +143,8 @@
 		<real>-121.69870</real>
 		<key>elevation</key>
 		<real>1776</real>
+		<key>overviewPdfFilename</key>
+		<string>glacier_basin_plot_12</string>
 	</dict>
 	<dict>
 		<key>plotNumber</key>
@@ -131,6 +155,8 @@
 		<real>-121.69933</real>
 		<key>elevation</key>
 		<real>1775</real>
+		<key>overviewPdfFilename</key>
+		<string>glacier_basin_plot_13</string>
 	</dict>
 	<dict>
 		<key>plotNumber</key>
@@ -141,6 +167,8 @@
 		<real>-121.70020</real>
 		<key>elevation</key>
 		<real>1804</real>
+		<key>overviewPdfFilename</key>
+		<string>glacier_basin_plot_14</string>
 	</dict>
 	<dict>
 		<key>plotNumber</key>
@@ -151,6 +179,8 @@
 		<real>-121.70039</real>
 		<key>elevation</key>
 		<real>1823</real>
+		<key>overviewPdfFilename</key>
+		<string>glacier_basin_plot_15</string>
 	</dict>
 	<dict>
 		<key>plotNumber</key>
@@ -161,6 +191,8 @@
 		<real>-121.40200</real>
 		<key>elevation</key>
 		<real>1810</real>
+		<key>overviewPdfFilename</key>
+		<string>glacier_basin_plot_16</string>
 	</dict>
 	<dict>
 		<key>plotNumber</key>
@@ -171,6 +203,8 @@
 		<real>-121.70433</real>
 		<key>elevation</key>
 		<real>1831</real>
+		<key>overviewPdfFilename</key>
+		<string>glacier_basin_plot_17</string>
 	</dict>
 </array>
 </plist>

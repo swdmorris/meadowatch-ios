@@ -11,6 +11,8 @@
 		<real>-121.72317</real>
 		<key>elevation</key>
 		<real>1496</real>
+		<key>overviewPdfFilename</key>
+		<string>refl_lakes_plot_1</string>
 	</dict>
 	<dict>
 		<key>plotNumber</key>
@@ -21,6 +23,8 @@
 		<real>-121.72337</real>
 		<key>elevation</key>
 		<real>1540</real>
+		<key>overviewPdfFilename</key>
+		<string>refl_lakes_plot_2</string>
 	</dict>
 	<dict>
 		<key>plotNumber</key>
@@ -31,6 +35,8 @@
 		<real>-121.71969</real>
 		<key>elevation</key>
 		<real>1605</real>
+		<key>overviewPdfFilename</key>
+		<string>refl_lakes_plot_3</string>
 	</dict>
 	<dict>
 		<key>plotNumber</key>
@@ -41,6 +47,8 @@
 		<real>-121.72025</real>
 		<key>elevation</key>
 		<real>1612</real>
+		<key>overviewPdfFilename</key>
+		<string>refl_lakes_plot_4</string>
 	</dict>
 	<dict>
 		<key>plotNumber</key>
@@ -51,16 +59,20 @@
 		<real>-121.721638</real>
 		<key>elevation</key>
 		<real>1650</real>
+		<key>overviewPdfFilename</key>
+		<string>refl_lakes_plot_5</string>
 	</dict>
 	<dict>
 		<key>plotNumber</key>
 		<integer>6</integer>
 		<key>lat</key>
-		<real>46.78170</real>
+		<real>46.7817</real>
 		<key>long</key>
 		<real>-121.71968</real>
 		<key>elevation</key>
 		<real>1680</real>
+		<key>overviewPdfFilename</key>
+		<string>refl_lakes_plot_6</string>
 	</dict>
 	<dict>
 		<key>plotNumber</key>
@@ -71,6 +83,8 @@
 		<real>-121.72019</real>
 		<key>elevation</key>
 		<real>1711</real>
+		<key>overviewPdfFilename</key>
+		<string>refl_lakes_plot_7</string>
 	</dict>
 	<dict>
 		<key>plotNumber</key>
@@ -81,16 +95,20 @@
 		<real>-121.71936</real>
 		<key>elevation</key>
 		<real>1745</real>
+		<key>overviewPdfFilename</key>
+		<string>refl_lakes_plot_8</string>
 	</dict>
 	<dict>
 		<key>plotNumber</key>
 		<integer>9</integer>
 		<key>lat</key>
-		<real>46.79190</real>
+		<real>46.7919</real>
 		<key>long</key>
 		<real>-121.71693</real>
 		<key>elevation</key>
 		<real>1805</real>
+		<key>overviewPdfFilename</key>
+		<string>refl_lakes_plot_9</string>
 	</dict>
 	<dict>
 		<key>plotNumber</key>
@@ -101,6 +119,8 @@
 		<real>-121.71604</real>
 		<key>elevation</key>
 		<real>1840</real>
+		<key>overviewPdfFilename</key>
+		<string>refl_lakes_plot_10</string>
 	</dict>
 	<dict>
 		<key>plotNumber</key>
@@ -111,6 +131,8 @@
 		<real>-121.71194</real>
 		<key>elevation</key>
 		<real>1880</real>
+		<key>overviewPdfFilename</key>
+		<string>refl_lakes_plot_11</string>
 	</dict>
 </array>
 </plist>

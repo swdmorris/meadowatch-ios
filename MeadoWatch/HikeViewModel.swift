@@ -17,6 +17,7 @@ class HikeViewModel {
     
     fileprivate var overviewPdfFilename: String
     private var plotsFilename: String
+    fileprivate(set) var species: [String] = ["Flower 1","Flower xyz","Flower abc","Flower 37"]
     fileprivate lazy var flowerPlots: [FlowerPlot] = {
         let gpsPlistPath = Bundle.main.path(forResource: self.plotsFilename, ofType: "plist", inDirectory: "")!
         let gpsPlist = NSArray(contentsOfFile: gpsPlistPath)!
@@ -36,10 +37,12 @@ extension HikeViewModel: MapDataSource {
     var plots: [FlowerPlot] {
         return flowerPlots
     }
+    
+    var allowShowPlotDetails: Bool {
+        return true
+    }
 }
 
 extension HikeViewModel: SpeciesDataSource {
-    var species: [String] {
-        return ["Flower 1","Flower xyz","Flower abc","Flower 37"]
-    }
+    
 }
