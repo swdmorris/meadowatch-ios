@@ -44,7 +44,7 @@ class PlotDetailsTabBarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let navBarTitle = viewModel?.navigationBarTitle ?? "Plot"
-        setupNavigationBarWith(title: navBarTitle, dismissSelector: #selector(closeButtonPressed))
+        setupNavigationBarWith(title: navBarTitle, dismiss: (self, #selector(closeButtonPressed)))
     }
     
     func closeButtonPressed() {

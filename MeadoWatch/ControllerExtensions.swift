@@ -9,10 +9,10 @@
 import UIKit
 
 extension UIViewController {
-    func setupNavigationBarWith(title: String, dismissSelector: Selector? = nil) {
+    func setupNavigationBarWith(title: String, dismiss: (target: Any, selector: Selector)? = nil) {
         let item = UINavigationItem(title: title)
-        if let dismissSelector = dismissSelector {
-            let closeButton = UIBarButtonItem(title: "X", style: .done, target: self, action: dismissSelector)
+        if let dismiss = dismiss {
+           let closeButton = UIBarButtonItem(title: "X", style: .done, target: dismiss.target, action: dismiss.selector)
             item.leftBarButtonItem = closeButton
         }
         navigationController?.navigationBar.items = [item]
