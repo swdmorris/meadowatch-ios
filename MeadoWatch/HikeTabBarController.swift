@@ -11,6 +11,7 @@ import UIKit
 class HikeTabBarController: UITabBarController {
     var hike: HikeViewModel? {
         didSet {
+            // TODO: find a way to do this that doesn't lead to huge initial load time
             for controller in viewControllers ?? [] {
                 if let mapController = controller as? MapController {
                     mapController.dataSource = hike
@@ -18,6 +19,8 @@ class HikeTabBarController: UITabBarController {
                     speciesController.dataSource = hike
                 } else if let overviewController = controller as? OverviewController {
                     overviewController.dataSource = hike
+                } else if let plotListController = controller as? PlotListController {
+                    plotListController.dataSource = hike
                 } else {
                     fatalError("Unknown controller type - check if controller needs a data source")
                 }

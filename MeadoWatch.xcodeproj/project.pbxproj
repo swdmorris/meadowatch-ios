@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2411FFEA20A61D5D004918AB /* ControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2411FFE920A61D5D004918AB /* ControllerExtensions.swift */; };
+		2411FFEE20AA8AF9004918AB /* PlotListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2411FFED20AA8AF9004918AB /* PlotListController.swift */; };
+		2411FFF020AA8B16004918AB /* PlotList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2411FFEF20AA8B16004918AB /* PlotList.storyboard */; };
 		24332B451F2845C900E95A1C /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24332B441F2845C900E95A1C /* MapController.swift */; };
 		24332B471F2845F500E95A1C /* Map.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24332B461F2845F500E95A1C /* Map.storyboard */; };
 		24332B491F28498F00E95A1C /* ReflectionLakesPlots.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24332B481F28498F00E95A1C /* ReflectionLakesPlots.plist */; };
@@ -62,6 +64,8 @@
 
 /* Begin PBXFileReference section */
 		2411FFE920A61D5D004918AB /* ControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerExtensions.swift; sourceTree = "<group>"; };
+		2411FFED20AA8AF9004918AB /* PlotListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlotListController.swift; sourceTree = "<group>"; };
+		2411FFEF20AA8B16004918AB /* PlotList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PlotList.storyboard; sourceTree = "<group>"; };
 		24332B441F2845C900E95A1C /* MapController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
 		24332B461F2845F500E95A1C /* Map.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Map.storyboard; sourceTree = "<group>"; };
 		24332B481F28498F00E95A1C /* ReflectionLakesPlots.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ReflectionLakesPlots.plist; sourceTree = "<group>"; };
@@ -224,14 +228,16 @@
 			children = (
 				24332B431F2845AB00E95A1C /* Map */,
 				24D230871F12DF1300987AC8 /* Navigation */,
-				24BD03FC20A40FFB0006B7A2 /* HikeTabBarController.swift */,
-				24BD03FE20A4100D0006B7A2 /* HikeTabBarController.storyboard */,
 				24CF0BE320A4AE5D00739C10 /* HikeSpeciesController.swift */,
 				24CF0BE620A4AE8E00739C10 /* HikeSpecies.storyboard */,
+				24BD03FC20A40FFB0006B7A2 /* HikeTabBarController.swift */,
+				24BD03FE20A4100D0006B7A2 /* HikeTabBarController.storyboard */,
 				24D230841F12DEF200987AC8 /* OverviewController.swift */,
 				24D2308C1F12E56100987AC8 /* Overview.storyboard */,
 				24A83DF020A60E6A00C97D0D /* PlotDetailsTabBarController.swift */,
 				24A83DEE20A60DD100C97D0D /* PlotDetails.storyboard */,
+				2411FFED20AA8AF9004918AB /* PlotListController.swift */,
+				2411FFEF20AA8B16004918AB /* PlotList.storyboard */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -390,6 +396,7 @@
 				24BD03F420A40E940006B7A2 /* refl_lakes_plot_7.pdf in Resources */,
 				245BE2731F1301D200526306 /* GlacierBasinPlots.plist in Resources */,
 				24BD03FB20A40E940006B7A2 /* refl_lakes_plot_11.pdf in Resources */,
+				2411FFF020AA8B16004918AB /* PlotList.storyboard in Resources */,
 				24BD03F520A40E940006B7A2 /* refl_lakes_plot_10.pdf in Resources */,
 				24332B471F2845F500E95A1C /* Map.storyboard in Resources */,
 			);
@@ -480,6 +487,7 @@
 				24D230971F12EEE800987AC8 /* HikeViewModel.swift in Sources */,
 				24332B4D1F284E5500E95A1C /* AppModel.swift in Sources */,
 				24D2306A1F12DA4200987AC8 /* MeadoWatch.xcdatamodeld in Sources */,
+				2411FFEE20AA8AF9004918AB /* PlotListController.swift in Sources */,
 				24D230851F12DEF200987AC8 /* OverviewController.swift in Sources */,
 				2411FFEA20A61D5D004918AB /* ControllerExtensions.swift in Sources */,
 				24D230621F12DA4200987AC8 /* AppDelegate.swift in Sources */,

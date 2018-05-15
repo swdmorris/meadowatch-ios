@@ -8,9 +8,7 @@
 
 import MapKit
 
-protocol MapDataSource: class {
-    var plots: [FlowerPlot] { get }
-    var species: [String] { get }
+protocol MapDataSource: PlotListDataSource {
     var allowShowPlotDetails: Bool { get }
 }
 

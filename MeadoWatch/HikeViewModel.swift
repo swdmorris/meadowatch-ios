@@ -30,6 +30,18 @@ class HikeViewModel {
 
 // TODO: spmor - pass limited info to child controllers (don't use exclusivly extensions for data delegation)
 
+extension HikeViewModel: PlotListDataSource {
+    var plots: [FlowerPlot] {
+        return flowerPlots
+    }
+}
+
+extension HikeViewModel: MapDataSource {
+    var allowShowPlotDetails: Bool {
+        return true
+    }
+}
+
 extension HikeViewModel: NavigationBarDataSource {
     var navigationBarTitle: String {
         return hikeDisplayName
@@ -39,16 +51,6 @@ extension HikeViewModel: NavigationBarDataSource {
 extension HikeViewModel: OverviewDataSource {
     var overviewPdfPath: String {
         return Bundle.main.path(forResource: overviewPdfFilename, ofType: "pdf")!
-    }
-}
-
-extension HikeViewModel: MapDataSource {
-    var plots: [FlowerPlot] {
-        return flowerPlots
-    }
-    
-    var allowShowPlotDetails: Bool {
-        return true
     }
 }
 

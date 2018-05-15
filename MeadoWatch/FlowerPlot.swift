@@ -27,4 +27,8 @@ struct FlowerPlot {
     var coordinate: CLLocation {
         return CLLocation(latitude: latitude, longitude: longitude)
     }
+    
+    var displayName: String {
+        return "Plot \(plotNumber)"
+    }
 }
