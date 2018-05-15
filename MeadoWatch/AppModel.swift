@@ -22,6 +22,7 @@ class AppModel {
         let hike = HikeViewModel(
             overviewPdfFilename: "ReflectionLakes_FinalBooklet",
             plotsFilename: "ReflectionLakesPlots",
+            speciesFilename: "ReflectionLakesSpecies",
             hikeDisplayName: "Reflection Lakes")
         return hike
     }()
@@ -30,6 +31,7 @@ class AppModel {
         let hike = HikeViewModel(
             overviewPdfFilename: "GlacierBasin_FinalBooklet",
             plotsFilename: "GlacierBasinPlots",
+            speciesFilename: "TODO - glacier basin species",
             hikeDisplayName: "Glacier Basin")
         return hike
     }()

@@ -9,7 +9,7 @@
 import UIKit
 
 protocol SpeciesDataSource: class {
-    var species: [String] { get }
+    var species: [FlowerSpecies] { get }
 }
 
 class HikeSpeciesController: UIViewController {

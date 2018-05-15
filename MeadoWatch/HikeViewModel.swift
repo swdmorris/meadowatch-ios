@@ -11,20 +11,27 @@ import MapKit
 class HikeViewModel {
     init(overviewPdfFilename: String,
          plotsFilename: String,
+         speciesFilename: String,
          hikeDisplayName: String) {
         self.overviewPdfFilename = overviewPdfFilename
         self.plotsFilename = plotsFilename
+        self.speciesFilename = speciesFilename
         self.hikeDisplayName = hikeDisplayName
     }
     
     fileprivate var overviewPdfFilename: String
     fileprivate var hikeDisplayName: String
     private var plotsFilename: String
-    fileprivate(set) var species: [String] = ["Flower 1","Flower xyz","Flower abc","Flower 37"]
+    private var speciesFilename: String
     fileprivate lazy var flowerPlots: [FlowerPlot] = {
         let gpsPlistPath = Bundle.main.path(forResource: self.plotsFilename, ofType: "plist", inDirectory: "")!
         let gpsPlist = NSArray(contentsOfFile: gpsPlistPath)!
         return gpsPlist.map { FlowerPlot(json: $0) }
+    }()
+    fileprivate(set) lazy var species: [FlowerSpecies] = {
+        let speciesPlistPath = Bundle.main.path(forResource: self.speciesFilename, ofType: "plist", inDirectory: "")!
+        let speciesPlist = NSArray(contentsOfFile: speciesPlistPath)!
+        return speciesPlist.map { FlowerSpecies(json: $0) }
     }()
 }
 

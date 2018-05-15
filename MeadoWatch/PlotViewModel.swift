@@ -10,13 +10,13 @@ import Foundation
 
 class PlotViewModel {
     init(plot: FlowerPlot,
-         species: [String]) {
+         species: [FlowerSpecies]) {
         self.plot = plot
         self.species = species
     }
     
     fileprivate var plot: FlowerPlot
-    fileprivate(set) var species: [String]
+    fileprivate(set) var species: [FlowerSpecies]
 }
 
 extension PlotViewModel: NavigationBarDataSource {

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>American Bistort</string>
+		<key>overviewPdfFilenames</key>
+		<array>
+			<string>refl_lakes_species_01_american_bistort_1</string>
+			<string>refl_lakes_species_01_american_bistort_2</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Avalanche Lily</string>
+		<key>overviewPdfFilenames</key>
+		<array>
+			<string>refl_lakes_species_02_avalanche_lily_1</string>
+			<string>refl_lakes_species_02_avalanche_lily_2</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Bracted Lousewort</string>
+		<key>overviewPdfFilenames</key>
+		<array>
+			<string>refl_lakes_species_03_bracted_lousewort_1</string>
+			<string>refl_lakes_species_03_bracted_lousewort_2</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Gray's Lovage</string>
+		<key>overviewPdfFilenames</key>
+		<array>
+			<string>refl_lakes_species_04_grays_lovage_1</string>
+			<string>refl_lakes_species_04_grays_lovage_2</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Magenta Paintbrush</string>
+		<key>overviewPdfFilenames</key>
+		<array>
+			<string>refl_lakes_species_05_magenta_paintbrush_1</string>
+			<string>refl_lakes_species_05_magenta_paintbrush_2</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Mountain Daisy</string>
+		<key>overviewPdfFilenames</key>
+		<array>
+			<string>refl_lakes_species_06_mountain_daisy_1</string>
+			<string>refl_lakes_species_06_mountain_daisy_2</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>North Microseris</string>
+		<key>overviewPdfFilenames</key>
+		<array>
+			<string>refl_lakes_species_07_north_microseris_1</string>
+			<string>refl_lakes_species_07_north_microseris_2</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Sitka Valerian</string>
+		<key>overviewPdfFilenames</key>
+		<array>
+			<string>refl_lakes_species_08_sitka_valerian_1</string>
+			<string>refl_lakes_species_08_sitka_valerian_2</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Subalpine Lupine</string>
+		<key>overviewPdfFilenames</key>
+		<array>
+			<string>refl_lakes_species_09_subalpine_lupine_1</string>
+			<string>refl_lakes_species_09_subalpine_lupine_2</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Western Anemone</string>
+		<key>overviewPdfFilenames</key>
+		<array>
+			<string>refl_lakes_species_10_western_anemone_1</string>
+			<string>refl_lakes_species_10_western_anemone_2</string>
+		</array>
+	</dict>
+</array>
+</plist>

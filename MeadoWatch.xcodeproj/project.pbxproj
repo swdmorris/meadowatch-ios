@@ -27,6 +27,7 @@
 		2411001920AA9482004918AB /* refl_lakes_species_09_subalpine_lupine_1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2411000520AA9481004918AB /* refl_lakes_species_09_subalpine_lupine_1.pdf */; };
 		2411001A20AA9482004918AB /* refl_lakes_species_02_avalanche_lily_2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2411000620AA9481004918AB /* refl_lakes_species_02_avalanche_lily_2.pdf */; };
 		2411001B20AA9482004918AB /* refl_lakes_species_03_bracted_lousewort_2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2411000720AA9481004918AB /* refl_lakes_species_03_bracted_lousewort_2.pdf */; };
+		2411001E20AA952B004918AB /* ReflectionLakesSpecies.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2411001D20AA952B004918AB /* ReflectionLakesSpecies.plist */; };
 		2411FFEA20A61D5D004918AB /* ControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2411FFE920A61D5D004918AB /* ControllerExtensions.swift */; };
 		2411FFEE20AA8AF9004918AB /* PlotListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2411FFED20AA8AF9004918AB /* PlotListController.swift */; };
 		2411FFF020AA8B16004918AB /* PlotList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2411FFEF20AA8B16004918AB /* PlotList.storyboard */; };
@@ -92,6 +93,7 @@
 		2411000520AA9481004918AB /* refl_lakes_species_09_subalpine_lupine_1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = refl_lakes_species_09_subalpine_lupine_1.pdf; sourceTree = "<group>"; };
 		2411000620AA9481004918AB /* refl_lakes_species_02_avalanche_lily_2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = refl_lakes_species_02_avalanche_lily_2.pdf; sourceTree = "<group>"; };
 		2411000720AA9481004918AB /* refl_lakes_species_03_bracted_lousewort_2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = refl_lakes_species_03_bracted_lousewort_2.pdf; sourceTree = "<group>"; };
+		2411001D20AA952B004918AB /* ReflectionLakesSpecies.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ReflectionLakesSpecies.plist; sourceTree = "<group>"; };
 		2411FFE920A61D5D004918AB /* ControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerExtensions.swift; sourceTree = "<group>"; };
 		2411FFED20AA8AF9004918AB /* PlotListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlotListController.swift; sourceTree = "<group>"; };
 		2411FFEF20AA8B16004918AB /* PlotList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PlotList.storyboard; sourceTree = "<group>"; };
@@ -350,6 +352,7 @@
 				245BE2701F1301BE00526306 /* TestGPX.gpx */,
 				245BE2721F1301D200526306 /* GlacierBasinPlots.plist */,
 				24332B481F28498F00E95A1C /* ReflectionLakesPlots.plist */,
+				2411001D20AA952B004918AB /* ReflectionLakesSpecies.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -457,6 +460,7 @@
 				24BD03F120A40E940006B7A2 /* refl_lakes_plot_4.pdf in Resources */,
 				2411000820AA9481004918AB /* refl_lakes_species_06_mountain_daisy_2.pdf in Resources */,
 				2411001B20AA9482004918AB /* refl_lakes_species_03_bracted_lousewort_2.pdf in Resources */,
+				2411001E20AA952B004918AB /* ReflectionLakesSpecies.plist in Resources */,
 				2411001220AA9481004918AB /* refl_lakes_species_08_sitka_valerian_2.pdf in Resources */,
 				2411001720AA9482004918AB /* refl_lakes_species_07_north_microseris_2.pdf in Resources */,
 				24D2306F1F12DA4200987AC8 /* LaunchScreen.storyboard in Resources */,

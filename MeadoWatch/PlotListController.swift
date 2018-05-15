@@ -8,9 +8,8 @@
 
 import UIKit
 
-protocol PlotListDataSource: class {
+protocol PlotListDataSource: SpeciesDataSource {
     var plots: [FlowerPlot] { get }
-    var species: [String] { get }
 }
 
 class PlotListController: UIViewController {
