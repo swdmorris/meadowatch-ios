@@ -7,9 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2411000820AA9481004918AB /* refl_lakes_species_06_mountain_daisy_2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2411FFF420AA947E004918AB /* refl_lakes_species_06_mountain_daisy_2.pdf */; };
+		2411000920AA9481004918AB /* refl_lakes_species_10_western_anemone_1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2411FFF520AA947E004918AB /* refl_lakes_species_10_western_anemone_1.pdf */; };
+		2411000A20AA9481004918AB /* refl_lakes_species_07_north_microseris_1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2411FFF620AA947E004918AB /* refl_lakes_species_07_north_microseris_1.pdf */; };
+		2411000B20AA9481004918AB /* refl_lakes_species_08_sitka_valerian_1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2411FFF720AA947E004918AB /* refl_lakes_species_08_sitka_valerian_1.pdf */; };
+		2411000C20AA9481004918AB /* refl_lakes_species_01_american_bistort_2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2411FFF820AA947F004918AB /* refl_lakes_species_01_american_bistort_2.pdf */; };
+		2411000D20AA9481004918AB /* refl_lakes_species_01_american_bistort_1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2411FFF920AA947F004918AB /* refl_lakes_species_01_american_bistort_1.pdf */; };
+		2411000E20AA9481004918AB /* refl_lakes_species_09_subalpine_lupine_2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2411FFFA20AA947F004918AB /* refl_lakes_species_09_subalpine_lupine_2.pdf */; };
+		2411000F20AA9481004918AB /* refl_lakes_species_05_magenta_paintbrush_2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2411FFFB20AA947F004918AB /* refl_lakes_species_05_magenta_paintbrush_2.pdf */; };
+		2411001020AA9481004918AB /* refl_lakes_species_06_mountain_daisy_1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2411FFFC20AA947F004918AB /* refl_lakes_species_06_mountain_daisy_1.pdf */; };
+		2411001120AA9481004918AB /* refl_lakes_species_10_western_anemone_2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2411FFFD20AA947F004918AB /* refl_lakes_species_10_western_anemone_2.pdf */; };
+		2411001220AA9481004918AB /* refl_lakes_species_08_sitka_valerian_2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2411FFFE20AA9480004918AB /* refl_lakes_species_08_sitka_valerian_2.pdf */; };
+		2411001320AA9481004918AB /* refl_lakes_species_02_avalanche_lily_1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2411FFFF20AA9480004918AB /* refl_lakes_species_02_avalanche_lily_1.pdf */; };
+		2411001420AA9481004918AB /* refl_lakes_species_05_magenta_paintbrush_1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2411000020AA9480004918AB /* refl_lakes_species_05_magenta_paintbrush_1.pdf */; };
+		2411001520AA9481004918AB /* refl_lakes_species_04_grays_lovage_1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2411000120AA9480004918AB /* refl_lakes_species_04_grays_lovage_1.pdf */; };
+		2411001620AA9481004918AB /* refl_lakes_species_04_grays_lovage_2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2411000220AA9480004918AB /* refl_lakes_species_04_grays_lovage_2.pdf */; };
+		2411001720AA9482004918AB /* refl_lakes_species_07_north_microseris_2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2411000320AA9480004918AB /* refl_lakes_species_07_north_microseris_2.pdf */; };
+		2411001820AA9482004918AB /* refl_lakes_species_03_bracted_lousewort_1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2411000420AA9481004918AB /* refl_lakes_species_03_bracted_lousewort_1.pdf */; };
+		2411001920AA9482004918AB /* refl_lakes_species_09_subalpine_lupine_1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2411000520AA9481004918AB /* refl_lakes_species_09_subalpine_lupine_1.pdf */; };
+		2411001A20AA9482004918AB /* refl_lakes_species_02_avalanche_lily_2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2411000620AA9481004918AB /* refl_lakes_species_02_avalanche_lily_2.pdf */; };
+		2411001B20AA9482004918AB /* refl_lakes_species_03_bracted_lousewort_2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2411000720AA9481004918AB /* refl_lakes_species_03_bracted_lousewort_2.pdf */; };
 		2411FFEA20A61D5D004918AB /* ControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2411FFE920A61D5D004918AB /* ControllerExtensions.swift */; };
 		2411FFEE20AA8AF9004918AB /* PlotListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2411FFED20AA8AF9004918AB /* PlotListController.swift */; };
 		2411FFF020AA8B16004918AB /* PlotList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2411FFEF20AA8B16004918AB /* PlotList.storyboard */; };
+		2411FFF220AA91ED004918AB /* FlowerSpecies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2411FFF120AA91ED004918AB /* FlowerSpecies.swift */; };
 		24332B451F2845C900E95A1C /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24332B441F2845C900E95A1C /* MapController.swift */; };
 		24332B471F2845F500E95A1C /* Map.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24332B461F2845F500E95A1C /* Map.storyboard */; };
 		24332B491F28498F00E95A1C /* ReflectionLakesPlots.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24332B481F28498F00E95A1C /* ReflectionLakesPlots.plist */; };
@@ -63,9 +84,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2411000020AA9480004918AB /* refl_lakes_species_05_magenta_paintbrush_1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = refl_lakes_species_05_magenta_paintbrush_1.pdf; sourceTree = "<group>"; };
+		2411000120AA9480004918AB /* refl_lakes_species_04_grays_lovage_1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = refl_lakes_species_04_grays_lovage_1.pdf; sourceTree = "<group>"; };
+		2411000220AA9480004918AB /* refl_lakes_species_04_grays_lovage_2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = refl_lakes_species_04_grays_lovage_2.pdf; sourceTree = "<group>"; };
+		2411000320AA9480004918AB /* refl_lakes_species_07_north_microseris_2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = refl_lakes_species_07_north_microseris_2.pdf; sourceTree = "<group>"; };
+		2411000420AA9481004918AB /* refl_lakes_species_03_bracted_lousewort_1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = refl_lakes_species_03_bracted_lousewort_1.pdf; sourceTree = "<group>"; };
+		2411000520AA9481004918AB /* refl_lakes_species_09_subalpine_lupine_1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = refl_lakes_species_09_subalpine_lupine_1.pdf; sourceTree = "<group>"; };
+		2411000620AA9481004918AB /* refl_lakes_species_02_avalanche_lily_2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = refl_lakes_species_02_avalanche_lily_2.pdf; sourceTree = "<group>"; };
+		2411000720AA9481004918AB /* refl_lakes_species_03_bracted_lousewort_2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = refl_lakes_species_03_bracted_lousewort_2.pdf; sourceTree = "<group>"; };
 		2411FFE920A61D5D004918AB /* ControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerExtensions.swift; sourceTree = "<group>"; };
 		2411FFED20AA8AF9004918AB /* PlotListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlotListController.swift; sourceTree = "<group>"; };
 		2411FFEF20AA8B16004918AB /* PlotList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PlotList.storyboard; sourceTree = "<group>"; };
+		2411FFF120AA91ED004918AB /* FlowerSpecies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerSpecies.swift; sourceTree = "<group>"; };
+		2411FFF420AA947E004918AB /* refl_lakes_species_06_mountain_daisy_2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = refl_lakes_species_06_mountain_daisy_2.pdf; sourceTree = "<group>"; };
+		2411FFF520AA947E004918AB /* refl_lakes_species_10_western_anemone_1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = refl_lakes_species_10_western_anemone_1.pdf; sourceTree = "<group>"; };
+		2411FFF620AA947E004918AB /* refl_lakes_species_07_north_microseris_1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = refl_lakes_species_07_north_microseris_1.pdf; sourceTree = "<group>"; };
+		2411FFF720AA947E004918AB /* refl_lakes_species_08_sitka_valerian_1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = refl_lakes_species_08_sitka_valerian_1.pdf; sourceTree = "<group>"; };
+		2411FFF820AA947F004918AB /* refl_lakes_species_01_american_bistort_2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = refl_lakes_species_01_american_bistort_2.pdf; sourceTree = "<group>"; };
+		2411FFF920AA947F004918AB /* refl_lakes_species_01_american_bistort_1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = refl_lakes_species_01_american_bistort_1.pdf; sourceTree = "<group>"; };
+		2411FFFA20AA947F004918AB /* refl_lakes_species_09_subalpine_lupine_2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = refl_lakes_species_09_subalpine_lupine_2.pdf; sourceTree = "<group>"; };
+		2411FFFB20AA947F004918AB /* refl_lakes_species_05_magenta_paintbrush_2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = refl_lakes_species_05_magenta_paintbrush_2.pdf; sourceTree = "<group>"; };
+		2411FFFC20AA947F004918AB /* refl_lakes_species_06_mountain_daisy_1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = refl_lakes_species_06_mountain_daisy_1.pdf; sourceTree = "<group>"; };
+		2411FFFD20AA947F004918AB /* refl_lakes_species_10_western_anemone_2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = refl_lakes_species_10_western_anemone_2.pdf; sourceTree = "<group>"; };
+		2411FFFE20AA9480004918AB /* refl_lakes_species_08_sitka_valerian_2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = refl_lakes_species_08_sitka_valerian_2.pdf; sourceTree = "<group>"; };
+		2411FFFF20AA9480004918AB /* refl_lakes_species_02_avalanche_lily_1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = refl_lakes_species_02_avalanche_lily_1.pdf; sourceTree = "<group>"; };
 		24332B441F2845C900E95A1C /* MapController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
 		24332B461F2845F500E95A1C /* Map.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Map.storyboard; sourceTree = "<group>"; };
 		24332B481F28498F00E95A1C /* ReflectionLakesPlots.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ReflectionLakesPlots.plist; sourceTree = "<group>"; };
@@ -141,6 +183,51 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		2411001C20AA9487004918AB /* Plot overviews */ = {
+			isa = PBXGroup;
+			children = (
+				24BD03EF20A40E940006B7A2 /* refl_lakes_plot_1.pdf */,
+				24BD03E820A40E930006B7A2 /* refl_lakes_plot_2.pdf */,
+				24BD03ED20A40E930006B7A2 /* refl_lakes_plot_3.pdf */,
+				24BD03E620A40E920006B7A2 /* refl_lakes_plot_4.pdf */,
+				24BD03E720A40E930006B7A2 /* refl_lakes_plot_5.pdf */,
+				24BD03EC20A40E930006B7A2 /* refl_lakes_plot_6.pdf */,
+				24BD03E920A40E930006B7A2 /* refl_lakes_plot_7.pdf */,
+				24BD03EE20A40E940006B7A2 /* refl_lakes_plot_8.pdf */,
+				24BD03EB20A40E930006B7A2 /* refl_lakes_plot_9.pdf */,
+				24BD03EA20A40E930006B7A2 /* refl_lakes_plot_10.pdf */,
+				24BD03F020A40E940006B7A2 /* refl_lakes_plot_11.pdf */,
+			);
+			name = "Plot overviews";
+			sourceTree = "<group>";
+		};
+		2411FFF320AA946A004918AB /* Species overviews */ = {
+			isa = PBXGroup;
+			children = (
+				2411FFF920AA947F004918AB /* refl_lakes_species_01_american_bistort_1.pdf */,
+				2411FFF820AA947F004918AB /* refl_lakes_species_01_american_bistort_2.pdf */,
+				2411FFFF20AA9480004918AB /* refl_lakes_species_02_avalanche_lily_1.pdf */,
+				2411000620AA9481004918AB /* refl_lakes_species_02_avalanche_lily_2.pdf */,
+				2411000420AA9481004918AB /* refl_lakes_species_03_bracted_lousewort_1.pdf */,
+				2411000720AA9481004918AB /* refl_lakes_species_03_bracted_lousewort_2.pdf */,
+				2411000120AA9480004918AB /* refl_lakes_species_04_grays_lovage_1.pdf */,
+				2411000220AA9480004918AB /* refl_lakes_species_04_grays_lovage_2.pdf */,
+				2411000020AA9480004918AB /* refl_lakes_species_05_magenta_paintbrush_1.pdf */,
+				2411FFFB20AA947F004918AB /* refl_lakes_species_05_magenta_paintbrush_2.pdf */,
+				2411FFFC20AA947F004918AB /* refl_lakes_species_06_mountain_daisy_1.pdf */,
+				2411FFF420AA947E004918AB /* refl_lakes_species_06_mountain_daisy_2.pdf */,
+				2411FFF620AA947E004918AB /* refl_lakes_species_07_north_microseris_1.pdf */,
+				2411000320AA9480004918AB /* refl_lakes_species_07_north_microseris_2.pdf */,
+				2411FFF720AA947E004918AB /* refl_lakes_species_08_sitka_valerian_1.pdf */,
+				2411FFFE20AA9480004918AB /* refl_lakes_species_08_sitka_valerian_2.pdf */,
+				2411000520AA9481004918AB /* refl_lakes_species_09_subalpine_lupine_1.pdf */,
+				2411FFFA20AA947F004918AB /* refl_lakes_species_09_subalpine_lupine_2.pdf */,
+				2411FFF520AA947E004918AB /* refl_lakes_species_10_western_anemone_1.pdf */,
+				2411FFFD20AA947F004918AB /* refl_lakes_species_10_western_anemone_2.pdf */,
+			);
+			name = "Species overviews";
+			sourceTree = "<group>";
+		};
 		24332B431F2845AB00E95A1C /* Map */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,17 +248,8 @@
 		24BD03E520A40E7F0006B7A2 /* PDFs */ = {
 			isa = PBXGroup;
 			children = (
-				24BD03EF20A40E940006B7A2 /* refl_lakes_plot_1.pdf */,
-				24BD03E820A40E930006B7A2 /* refl_lakes_plot_2.pdf */,
-				24BD03ED20A40E930006B7A2 /* refl_lakes_plot_3.pdf */,
-				24BD03E620A40E920006B7A2 /* refl_lakes_plot_4.pdf */,
-				24BD03E720A40E930006B7A2 /* refl_lakes_plot_5.pdf */,
-				24BD03EC20A40E930006B7A2 /* refl_lakes_plot_6.pdf */,
-				24BD03E920A40E930006B7A2 /* refl_lakes_plot_7.pdf */,
-				24BD03EE20A40E940006B7A2 /* refl_lakes_plot_8.pdf */,
-				24BD03EB20A40E930006B7A2 /* refl_lakes_plot_9.pdf */,
-				24BD03EA20A40E930006B7A2 /* refl_lakes_plot_10.pdf */,
-				24BD03F020A40E940006B7A2 /* refl_lakes_plot_11.pdf */,
+				2411001C20AA9487004918AB /* Plot overviews */,
+				2411FFF320AA946A004918AB /* Species overviews */,
 				249D10F11F21C1BF00F81115 /* GlacierBasin_FinalBooklet.pdf */,
 				249D10F31F21C1C600F81115 /* ReflectionLakes_FinalBooklet.pdf */,
 			);
@@ -260,6 +338,7 @@
 				24D230961F12EEE800987AC8 /* HikeViewModel.swift */,
 				24A83DF220A60E9800C97D0D /* PlotViewModel.swift */,
 				24332B4E1F285B8800E95A1C /* FlowerPlot.swift */,
+				2411FFF120AA91ED004918AB /* FlowerSpecies.swift */,
 			);
 			name = Data;
 			sourceTree = "<group>";
@@ -376,27 +455,47 @@
 				24D2308D1F12E56100987AC8 /* Overview.storyboard in Resources */,
 				24332B491F28498F00E95A1C /* ReflectionLakesPlots.plist in Resources */,
 				24BD03F120A40E940006B7A2 /* refl_lakes_plot_4.pdf in Resources */,
+				2411000820AA9481004918AB /* refl_lakes_species_06_mountain_daisy_2.pdf in Resources */,
+				2411001B20AA9482004918AB /* refl_lakes_species_03_bracted_lousewort_2.pdf in Resources */,
+				2411001220AA9481004918AB /* refl_lakes_species_08_sitka_valerian_2.pdf in Resources */,
+				2411001720AA9482004918AB /* refl_lakes_species_07_north_microseris_2.pdf in Resources */,
 				24D2306F1F12DA4200987AC8 /* LaunchScreen.storyboard in Resources */,
 				24BD03F620A40E940006B7A2 /* refl_lakes_plot_9.pdf in Resources */,
 				24BD03FF20A4100D0006B7A2 /* HikeTabBarController.storyboard in Resources */,
+				2411001520AA9481004918AB /* refl_lakes_species_04_grays_lovage_1.pdf in Resources */,
+				2411001420AA9481004918AB /* refl_lakes_species_05_magenta_paintbrush_1.pdf in Resources */,
 				24BD03F320A40E940006B7A2 /* refl_lakes_plot_2.pdf in Resources */,
 				24D230891F12DF2900987AC8 /* MainTable.storyboard in Resources */,
 				24A83DEF20A60DD100C97D0D /* PlotDetails.storyboard in Resources */,
 				24BD040320A416E80006B7A2 /* MainTabBarController.storyboard in Resources */,
 				249D10F41F21C1C600F81115 /* ReflectionLakes_FinalBooklet.pdf in Resources */,
+				2411000D20AA9481004918AB /* refl_lakes_species_01_american_bistort_1.pdf in Resources */,
 				24CF0BE720A4AE8E00739C10 /* HikeSpecies.storyboard in Resources */,
+				2411001320AA9481004918AB /* refl_lakes_species_02_avalanche_lily_1.pdf in Resources */,
 				24D2306C1F12DA4200987AC8 /* Assets.xcassets in Resources */,
 				24BD03F220A40E940006B7A2 /* refl_lakes_plot_5.pdf in Resources */,
+				2411000920AA9481004918AB /* refl_lakes_species_10_western_anemone_1.pdf in Resources */,
 				24BD03F920A40E940006B7A2 /* refl_lakes_plot_8.pdf in Resources */,
 				24BD03F820A40E940006B7A2 /* refl_lakes_plot_3.pdf in Resources */,
+				2411000F20AA9481004918AB /* refl_lakes_species_05_magenta_paintbrush_2.pdf in Resources */,
+				2411001120AA9481004918AB /* refl_lakes_species_10_western_anemone_2.pdf in Resources */,
+				2411001020AA9481004918AB /* refl_lakes_species_06_mountain_daisy_1.pdf in Resources */,
+				2411001820AA9482004918AB /* refl_lakes_species_03_bracted_lousewort_1.pdf in Resources */,
 				24BD03F720A40E940006B7A2 /* refl_lakes_plot_6.pdf in Resources */,
 				24BD03FA20A40E940006B7A2 /* refl_lakes_plot_1.pdf in Resources */,
+				2411000E20AA9481004918AB /* refl_lakes_species_09_subalpine_lupine_2.pdf in Resources */,
 				245BE2711F1301BE00526306 /* TestGPX.gpx in Resources */,
+				2411000C20AA9481004918AB /* refl_lakes_species_01_american_bistort_2.pdf in Resources */,
 				249D10F21F21C1BF00F81115 /* GlacierBasin_FinalBooklet.pdf in Resources */,
 				24BD03F420A40E940006B7A2 /* refl_lakes_plot_7.pdf in Resources */,
+				2411000A20AA9481004918AB /* refl_lakes_species_07_north_microseris_1.pdf in Resources */,
+				2411000B20AA9481004918AB /* refl_lakes_species_08_sitka_valerian_1.pdf in Resources */,
+				2411001920AA9482004918AB /* refl_lakes_species_09_subalpine_lupine_1.pdf in Resources */,
 				245BE2731F1301D200526306 /* GlacierBasinPlots.plist in Resources */,
 				24BD03FB20A40E940006B7A2 /* refl_lakes_plot_11.pdf in Resources */,
+				2411001A20AA9482004918AB /* refl_lakes_species_02_avalanche_lily_2.pdf in Resources */,
 				2411FFF020AA8B16004918AB /* PlotList.storyboard in Resources */,
+				2411001620AA9481004918AB /* refl_lakes_species_04_grays_lovage_2.pdf in Resources */,
 				24BD03F520A40E940006B7A2 /* refl_lakes_plot_10.pdf in Resources */,
 				24332B471F2845F500E95A1C /* Map.storyboard in Resources */,
 			);
@@ -486,6 +585,7 @@
 				24BD03FD20A40FFB0006B7A2 /* HikeTabBarController.swift in Sources */,
 				24D230971F12EEE800987AC8 /* HikeViewModel.swift in Sources */,
 				24332B4D1F284E5500E95A1C /* AppModel.swift in Sources */,
+				2411FFF220AA91ED004918AB /* FlowerSpecies.swift in Sources */,
 				24D2306A1F12DA4200987AC8 /* MeadoWatch.xcdatamodeld in Sources */,
 				2411FFEE20AA8AF9004918AB /* PlotListController.swift in Sources */,
 				24D230851F12DEF200987AC8 /* OverviewController.swift in Sources */,

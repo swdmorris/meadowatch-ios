@@ -30,7 +30,7 @@ class PlotListController: UIViewController {
 extension PlotListController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         guard let plot = plot(for: indexPath) else {
-            fatalError("Attempted to acces plot (\(indexPath.row) beyond index path of available plots (\(dataSource.plots.count)")
+            fatalError("Attempted to access plot (\(indexPath.row) beyond index path of available plots (\(dataSource.plots.count)")
         }
         showDetails(for: plot, species: dataSource.species)
     }
@@ -41,7 +41,7 @@ extension PlotListController: UITableViewDataSource {
         let cellId = "PlotCell"
         let cell = tableView.dequeueReusableCell(withIdentifier: cellId, for: indexPath)
         guard let plot = plot(for: indexPath) else {
-            fatalError("Attempted to acces plot (\(indexPath.row) beyond index path of available plots (\(dataSource.plots.count)")
+            fatalError("Attempted to access plot (\(indexPath.row) beyond index path of available plots (\(dataSource.plots.count)")
         }
         cell.textLabel?.text = plot.displayName
         
