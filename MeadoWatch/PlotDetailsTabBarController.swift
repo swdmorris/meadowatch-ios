@@ -12,7 +12,6 @@ extension UIViewController {
     func showDetails(for plot: FlowerPlot, species: [String]) {
         let plotController = PlotDetailsTabBarController.create(with: plot, species: species)
         present(plotController, animated: true)
-//        navigationController?.pushViewController(plotController, animated: true)
     }
 }
 

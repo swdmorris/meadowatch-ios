@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Hike Species Controller-->
+        <!--Species-->
         <scene sceneID="ywp-Nf-O0x">
             <objects>
                 <viewController id="nLR-tH-0C4" customClass="HikeSpeciesController" customModule="MeadoWatch" customModuleProvider="target" sceneMemberID="viewController">
@@ -32,6 +32,8 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="1Ns-mk-4od"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Species" id="gcH-bN-hTS"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a1Z-55-hgt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

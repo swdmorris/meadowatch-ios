@@ -13,7 +13,7 @@
         <scene sceneID="zVc-Ou-1Pz">
             <objects>
                 <viewControllerPlaceholder storyboardName="Overview" id="2cB-xt-SOo" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="topRated" id="d73-gO-STP"/>
+                    <tabBarItem key="tabBarItem" title="" id="d73-gO-STP"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qm0-ef-HJr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -23,7 +23,7 @@
         <scene sceneID="2bM-MY-bEf">
             <objects>
                 <viewControllerPlaceholder storyboardName="Map" id="abT-6E-fAz" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="bookmarks" id="kE1-t9-Vbp"/>
+                    <tabBarItem key="tabBarItem" id="kE1-t9-Vbp"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rZA-Ht-z8S" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -69,7 +69,7 @@
         <scene sceneID="WDm-qR-iFp">
             <objects>
                 <viewControllerPlaceholder storyboardName="HikeSpecies" id="ZZV-9j-VAW" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="favorites" id="QZk-oo-JkS"/>
+                    <tabBarItem key="tabBarItem" id="QZk-oo-JkS"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Ue-81-0Cw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
