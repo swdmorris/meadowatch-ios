@@ -13,6 +13,12 @@
 		<real>1496</real>
 		<key>overviewPdfFilename</key>
 		<string>refl_lakes_plot_1</string>
+		<key>speciesIds</key>
+		<array>
+			<string>grays_lovage</string>
+			<string>mountain_daisy</string>
+			<string>sitka_valerian</string>
+		</array>
 	</dict>
 	<dict>
 		<key>plotNumber</key>
@@ -25,6 +31,13 @@
 		<real>1540</real>
 		<key>overviewPdfFilename</key>
 		<string>refl_lakes_plot_2</string>
+		<key>speciesIds</key>
+		<array>
+			<string>bracted_lousewort</string>
+			<string>magenta_paintbrush</string>
+			<string>sitka_valerian</string>
+			<string>subalpine_lupine</string>
+		</array>
 	</dict>
 	<dict>
 		<key>plotNumber</key>
@@ -37,6 +50,14 @@
 		<real>1605</real>
 		<key>overviewPdfFilename</key>
 		<string>refl_lakes_plot_3</string>
+		<key>speciesIds</key>
+		<array>
+			<string>american_bistort</string>
+			<string>bracted_lousewort</string>
+			<string>grays_lovage</string>
+			<string>sitka_valerian</string>
+			<string>subalpine_lupine</string>
+		</array>
 	</dict>
 	<dict>
 		<key>plotNumber</key>
@@ -49,6 +70,16 @@
 		<real>1612</real>
 		<key>overviewPdfFilename</key>
 		<string>refl_lakes_plot_4</string>
+		<key>speciesIds</key>
+		<array>
+			<string>american_bistort</string>
+			<string>avalanche_lily</string>
+			<string>bracted_lousewort</string>
+			<string>grays_lovage</string>
+			<string>magenta_paintbrush</string>
+			<string>mountain_daisy</string>
+			<string>sitka_valerian</string>
+		</array>
 	</dict>
 	<dict>
 		<key>plotNumber</key>
@@ -61,6 +92,16 @@
 		<real>1650</real>
 		<key>overviewPdfFilename</key>
 		<string>refl_lakes_plot_5</string>
+		<key>speciesIds</key>
+		<array>
+			<string>american_bistort</string>
+			<string>avalanche_lily</string>
+			<string>bracted_lousewort</string>
+			<string>magenta_paintbrush</string>
+			<string>mountain_daisy</string>
+			<string>sitka_valerian</string>
+			<string>subalpine_lupine</string>
+		</array>
 	</dict>
 	<dict>
 		<key>plotNumber</key>
@@ -73,6 +114,17 @@
 		<real>1680</real>
 		<key>overviewPdfFilename</key>
 		<string>refl_lakes_plot_6</string>
+		<key>speciesIds</key>
+		<array>
+			<string>american_bistort</string>
+			<string>avalanche_lily</string>
+			<string>grays_lovage</string>
+			<string>magenta_paintbrush</string>
+			<string>north_microseris</string>
+			<string>sitka_valerian</string>
+			<string>subalpine_lupine</string>
+			<string>western_anemone</string>
+		</array>
 	</dict>
 	<dict>
 		<key>plotNumber</key>
@@ -85,6 +137,16 @@
 		<real>1711</real>
 		<key>overviewPdfFilename</key>
 		<string>refl_lakes_plot_7</string>
+		<key>speciesIds</key>
+		<array>
+			<string>american_bistort</string>
+			<string>avalanche_lily</string>
+			<string>bracted_lousewort</string>
+			<string>grays_lovage</string>
+			<string>magenta_paintbrush</string>
+			<string>sitka_valerian</string>
+			<string>subalpine_lupine</string>
+		</array>
 	</dict>
 	<dict>
 		<key>plotNumber</key>
@@ -97,6 +159,16 @@
 		<real>1745</real>
 		<key>overviewPdfFilename</key>
 		<string>refl_lakes_plot_8</string>
+		<key>speciesIds</key>
+		<array>
+			<string>american_bistort</string>
+			<string>bracted_lousewort</string>
+			<string>grays_lovage</string>
+			<string>magenta_paintbrush</string>
+			<string>north_microseris</string>
+			<string>subalpine_lupine</string>
+			<string>western_anemone</string>
+		</array>
 	</dict>
 	<dict>
 		<key>plotNumber</key>
@@ -109,6 +181,16 @@
 		<real>1805</real>
 		<key>overviewPdfFilename</key>
 		<string>refl_lakes_plot_9</string>
+		<key>speciesIds</key>
+		<array>
+			<string>american_bistort</string>
+			<string>grays_lovage</string>
+			<string>magenta_paintbrush</string>
+			<string>mountain_daisy</string>
+			<string>north_microseris</string>
+			<string>subalpine_lupine</string>
+			<string>western_anemone</string>
+		</array>
 	</dict>
 	<dict>
 		<key>plotNumber</key>
@@ -121,6 +203,16 @@
 		<real>1840</real>
 		<key>overviewPdfFilename</key>
 		<string>refl_lakes_plot_10</string>
+		<key>speciesIds</key>
+		<array>
+			<string>american_bistort</string>
+			<string>grays_lovage</string>
+			<string>magenta_paintbrush</string>
+			<string>mountain_daisy</string>
+			<string>sitka_valerian</string>
+			<string>subalpine_lupine</string>
+			<string>western_anemone</string>
+		</array>
 	</dict>
 	<dict>
 		<key>plotNumber</key>
@@ -133,6 +225,14 @@
 		<real>1880</real>
 		<key>overviewPdfFilename</key>
 		<string>refl_lakes_plot_11</string>
+		<key>speciesIds</key>
+		<array>
+			<string>magenta_paintbrush</string>
+			<string>mountain_daisy</string>
+			<string>north_microseris</string>
+			<string>subalpine_lupine</string>
+			<string>western_anemone</string>
+		</array>
 	</dict>
 </array>
 </plist>

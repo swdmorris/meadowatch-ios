@@ -3,6 +3,8 @@
 <plist version="1.0">
 <array>
 	<dict>
+		<key>id</key>
+		<string>american_bistort</string>
 		<key>name</key>
 		<string>American Bistort</string>
 		<key>overviewPdfFilenames</key>
@@ -12,6 +14,8 @@
 		</array>
 	</dict>
 	<dict>
+		<key>id</key>
+		<string>avalanche_lily</string>
 		<key>name</key>
 		<string>Avalanche Lily</string>
 		<key>overviewPdfFilenames</key>
@@ -21,6 +25,8 @@
 		</array>
 	</dict>
 	<dict>
+		<key>id</key>
+		<string>bracted_lousewort</string>
 		<key>name</key>
 		<string>Bracted Lousewort</string>
 		<key>overviewPdfFilenames</key>
@@ -30,8 +36,10 @@
 		</array>
 	</dict>
 	<dict>
+		<key>id</key>
+		<string>grays_lovage</string>
 		<key>name</key>
-		<string>Gray's Lovage</string>
+		<string>Gray&apos;s Lovage</string>
 		<key>overviewPdfFilenames</key>
 		<array>
 			<string>refl_lakes_species_04_grays_lovage_1</string>
@@ -39,6 +47,8 @@
 		</array>
 	</dict>
 	<dict>
+		<key>id</key>
+		<string>magenta_paintbrush</string>
 		<key>name</key>
 		<string>Magenta Paintbrush</string>
 		<key>overviewPdfFilenames</key>
@@ -48,6 +58,8 @@
 		</array>
 	</dict>
 	<dict>
+		<key>id</key>
+		<string>mountain_daisy</string>
 		<key>name</key>
 		<string>Mountain Daisy</string>
 		<key>overviewPdfFilenames</key>
@@ -57,6 +69,8 @@
 		</array>
 	</dict>
 	<dict>
+		<key>id</key>
+		<string>north_microseris</string>
 		<key>name</key>
 		<string>North Microseris</string>
 		<key>overviewPdfFilenames</key>
@@ -66,6 +80,8 @@
 		</array>
 	</dict>
 	<dict>
+		<key>id</key>
+		<string>sitka_valerian</string>
 		<key>name</key>
 		<string>Sitka Valerian</string>
 		<key>overviewPdfFilenames</key>
@@ -75,6 +91,8 @@
 		</array>
 	</dict>
 	<dict>
+		<key>id</key>
+		<string>subalpine_lupine</string>
 		<key>name</key>
 		<string>Subalpine Lupine</string>
 		<key>overviewPdfFilenames</key>
@@ -84,6 +102,8 @@
 		</array>
 	</dict>
 	<dict>
+		<key>id</key>
+		<string>western_anemone</string>
 		<key>name</key>
 		<string>Western Anemone</string>
 		<key>overviewPdfFilenames</key>
