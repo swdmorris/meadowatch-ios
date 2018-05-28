@@ -19,7 +19,7 @@ class SpeciesListController: UIViewController {
     
 }
 
-extension SpeciesListController : UITableViewDataSource {
+extension SpeciesListController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cellId = "SpeciesCell"
         let cell = tableView.dequeueReusableCell(withIdentifier: cellId, for: indexPath)
@@ -31,5 +31,15 @@ extension SpeciesListController : UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return dataSource.species.count
+    }
+}
+
+extension SpeciesListController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let species = dataSource.species[indexPath.row]
+        
+        let overviewController = UIStoryboard(name: "Overview", bundle: Bundle.main).instantiateInitialViewController() as! OverviewController
+        overviewController.dataSource = SpeciesViewModel(species: species)
+        navigationController?.pushViewController(overviewController, animated: true)
     }
 }

@@ -13,12 +13,15 @@ protocol OverviewDataSource: class {
 }
 
 class OverviewController: UIViewController {
-    weak var dataSource: OverviewDataSource!
+    var dataSource: OverviewDataSource!
     
     @IBOutlet private weak var webview: UIWebView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        webview.loadRequest(URLRequest(url: URL(fileURLWithPath: dataSource.overviewPdfPath)))
+        guard let overviewPdfPath = dataSource?.overviewPdfPath else {
+            return
+        }
+        webview.loadRequest(URLRequest(url: URL(fileURLWithPath: overviewPdfPath)))
     }
 }
