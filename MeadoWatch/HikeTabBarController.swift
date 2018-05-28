@@ -15,7 +15,7 @@ class HikeTabBarController: UITabBarController {
             for controller in viewControllers ?? [] {
                 if let mapController = controller as? MapController {
                     mapController.dataSource = hike
-                } else if let speciesController = controller as? HikeSpeciesController {
+                } else if let speciesController = controller as? SpeciesListController {
                     speciesController.dataSource = hike
                 } else if let overviewController = controller as? OverviewController {
                     overviewController.dataSource = hike

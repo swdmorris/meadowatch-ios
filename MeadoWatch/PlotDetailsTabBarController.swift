@@ -21,7 +21,7 @@ class PlotDetailsTabBarController: UITabBarController {
             for controller in viewControllers ?? [] {
                 if let mapController = controller as? MapController {
                     mapController.dataSource = viewModel
-                } else if let speciesController = controller as? HikeSpeciesController {
+                } else if let speciesController = controller as? SpeciesListController {
                     speciesController.dataSource = viewModel
                 } else if let overviewController = controller as? OverviewController {
                     overviewController.dataSource = viewModel
