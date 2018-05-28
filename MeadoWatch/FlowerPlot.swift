@@ -16,12 +16,14 @@ struct FlowerPlot {
         elevation = jsonDictionary["elevation"] as! Double
         plotNumber = jsonDictionary["plotNumber"] as! Int
         overviewPdfFilename = jsonDictionary["overviewPdfFilename"] as! String
+        speciesIds = jsonDictionary["speciesIds"] as! [String]
     }
     
     private(set) var plotNumber: Int
     private(set) var latitude: Double
     private(set) var longitude: Double
     private(set) var overviewPdfFilename: String
+    private(set) var speciesIds: [String]
     private var elevation: Double // in meters
     
     var coordinate: CLLocation {

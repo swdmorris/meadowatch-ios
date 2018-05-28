@@ -53,8 +53,9 @@ extension MapController: MKMapViewDelegate {
         guard dataSource.allowShowPlotDetails else {
             return
         }
-        if let plot = plot(for: view) {
-            showDetails(for: plot, species: dataSource.species)
+        if let plot = plot(for: view),
+            let viewModel = dataSource.viewModelForPlot(plot) {
+            showDetails(for: viewModel)
         }
     }
 }

@@ -9,8 +9,8 @@
 import UIKit
 
 extension UIViewController {
-    func showDetails(for plot: FlowerPlot, species: [FlowerSpecies]) {
-        let plotController = PlotDetailsTabBarController.create(with: plot, species: species)
+    func showDetails(for viewModel: PlotViewModel) {
+        let plotController = PlotDetailsTabBarController.create(with: viewModel)
         present(plotController, animated: true)
     }
 }
@@ -32,10 +32,9 @@ class PlotDetailsTabBarController: UITabBarController {
         }
     }
     
-    static func create(with plot: FlowerPlot, species: [FlowerSpecies]) -> UINavigationController {
+    static func create(with viewModel: PlotViewModel) -> UINavigationController {
         let plotNavigationController = UIStoryboard(name: "PlotDetails", bundle: Bundle.main).instantiateInitialViewController() as! UINavigationController
         let plotController = plotNavigationController.viewControllers.first as! PlotDetailsTabBarController
-        let viewModel = PlotViewModel(plot: plot, species: species)
         plotController.viewModel = viewModel
         return plotNavigationController
     }

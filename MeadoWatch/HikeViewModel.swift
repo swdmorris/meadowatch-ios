@@ -33,6 +33,11 @@ class HikeViewModel {
         let speciesPlist = NSArray(contentsOfFile: speciesPlistPath)!
         return speciesPlist.map { FlowerSpecies(json: $0) }
     }()
+    
+    func viewModelForPlot(_ plot: FlowerPlot) -> PlotViewModel? {
+        let plotSpecies = species.filter { plot.speciesIds.contains($0.id) }
+        return PlotViewModel(plot: plot, species: plotSpecies)
+    }
 }
 
 // TODO: spmor - pass limited info to child controllers (don't use exclusivly extensions for data delegation)

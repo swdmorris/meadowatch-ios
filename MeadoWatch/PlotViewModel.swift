@@ -33,6 +33,10 @@ extension PlotViewModel: MapDataSource {
     var allowShowPlotDetails: Bool {
         return false
     }
+    
+    func viewModelForPlot(_ plot: FlowerPlot) -> PlotViewModel? {
+        return nil
+    }
 }
 
 extension PlotViewModel: OverviewDataSource {

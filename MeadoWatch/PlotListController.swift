@@ -10,6 +10,7 @@ import UIKit
 
 protocol PlotListDataSource: SpeciesDataSource {
     var plots: [FlowerPlot] { get }
+    func viewModelForPlot(_ plot: FlowerPlot) -> PlotViewModel?
 }
 
 class PlotListController: UIViewController {
@@ -31,7 +32,9 @@ extension PlotListController: UITableViewDelegate {
         guard let plot = plot(for: indexPath) else {
             fatalError("Attempted to access plot (\(indexPath.row) beyond index path of available plots (\(dataSource.plots.count)")
         }
-        showDetails(for: plot, species: dataSource.species)
+        if let viewModel = dataSource.viewModelForPlot(plot) {
+            showDetails(for: viewModel)
+        }
     }
 }
 
