@@ -15,8 +15,11 @@ protocol SpeciesDataSource: class {
 class SpeciesListController: UIViewController {
     weak var dataSource: SpeciesDataSource!
     
-    @IBOutlet fileprivate var tableView: UITableView!
-    
+    @IBOutlet fileprivate var tableView: UITableView! {
+        didSet {
+            tableView.tableFooterView = UIView(frame: .zero)
+        }
+    }
 }
 
 extension SpeciesListController: UITableViewDataSource {

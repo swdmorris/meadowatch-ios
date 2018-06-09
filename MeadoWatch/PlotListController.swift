@@ -18,7 +18,7 @@ class PlotListController: UIViewController {
     
     @IBOutlet private weak var tableView: UITableView! {
         didSet {
-            tableView.tableFooterView = nil
+            tableView.tableFooterView = UIView(frame: .zero)
         }
     }
     

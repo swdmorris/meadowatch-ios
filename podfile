@@ -4,4 +4,5 @@ use_frameworks!
 
 target 'MeadoWatch' do
   pod 'SwiftGen', '~> 4.2.1'
+  pod 'SideMenu', '~> 2.3.3'
 end

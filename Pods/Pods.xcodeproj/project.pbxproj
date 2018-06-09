@@ -7,47 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5AA2B7D175F9911BCF82A644DF1A11F6 /* Pods-MeadoWatch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D0AE513C920B75DBD3489538006F36 /* Pods-MeadoWatch-dummy.m */; };
-		5DAD40EE682F2C225BAD5B428966A587 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		AB3E798309D5313EC4A4E35A1BAD87EB /* Pods-MeadoWatch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FA11FF7D58E2A6F6281C6ACC8E3719F /* Pods-MeadoWatch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		096ABD0284B2DDBC65881D1C3D000E4B /* SideMenuTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3B1E80B2576DDC3ADE55A2E4882C1B /* SideMenuTransition.swift */; };
+		12F8C9D45B81460C258051E729BD8D42 /* SideMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 067AE3AE4661FA6E2A58931B29FCDB61 /* SideMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B15CAFDDF7529BCC7140BD16DFAA918 /* UISideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7A980173F386E18C3B9BA1CAEB60AD /* UISideMenuNavigationController.swift */; };
+		3E31F549428DDD25BFBD66CAB08C0AE0 /* Pods-MeadoWatch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D0AE513C920B75DBD3489538006F36 /* Pods-MeadoWatch-dummy.m */; };
+		744285183289B57E1F21BF68449F1A90 /* Pods-MeadoWatch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FA11FF7D58E2A6F6281C6ACC8E3719F /* Pods-MeadoWatch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		818DE4A42E4B31ACB30D20DB5BC63015 /* SideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3995322265FE90475ADB0470FC16B15A /* SideMenu-dummy.m */; };
+		9804336A548E749213EE1159393C0416 /* UITableViewVibrantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E764318E0E20BBC7DBABBFD84F6F9CF6 /* UITableViewVibrantCell.swift */; };
+		A851E7AFC88D8736DEE6157EC656AF1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B89F1C8E68AC0F3FA0628EC557DEC461 /* SideMenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50383368D34E956A1418062AFFCA8B5 /* SideMenuManager.swift */; };
+		FEC20E3E9A238ADF46776662A926C05A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		EC71934863320F7EEA8C2CA533B524C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3B2C926163C1F75B9399840235ABBB2;
+			remoteInfo = SideMenu;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		01C18D9DB73A5F4AA7E1802670A610BB /* Pods_MeadoWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MeadoWatch.framework; path = "Pods-MeadoWatch.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		067AE3AE4661FA6E2A58931B29FCDB61 /* SideMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-umbrella.h"; sourceTree = "<group>"; };
 		128D3662AD780F6A5799D1439B51A59E /* Pods-MeadoWatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MeadoWatch.release.xcconfig"; sourceTree = "<group>"; };
 		1D185B66144AF23493377AA50C7DAEF5 /* Pods-MeadoWatch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MeadoWatch.modulemap"; sourceTree = "<group>"; };
 		2B05B1B19726B0E28CACA89032E337FA /* Pods-MeadoWatch-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MeadoWatch-frameworks.sh"; sourceTree = "<group>"; };
+		2C3B1E80B2576DDC3ADE55A2E4882C1B /* SideMenuTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuTransition.swift; path = Pod/Classes/SideMenuTransition.swift; sourceTree = "<group>"; };
 		330625979E806CDC375FF88910BF29D1 /* Pods-MeadoWatch-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MeadoWatch-resources.sh"; sourceTree = "<group>"; };
 		3659F5DD733F4F22C74F48ED8DDDD582 /* Pods-MeadoWatch-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MeadoWatch-acknowledgements.plist"; sourceTree = "<group>"; };
+		3995322265FE90475ADB0470FC16B15A /* SideMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SideMenu-dummy.m"; sourceTree = "<group>"; };
+		43F093FE9BFC73525969DE84B790E939 /* SideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SideMenu.framework; path = SideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FA11FF7D58E2A6F6281C6ACC8E3719F /* Pods-MeadoWatch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MeadoWatch-umbrella.h"; sourceTree = "<group>"; };
 		61D0AE513C920B75DBD3489538006F36 /* Pods-MeadoWatch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MeadoWatch-dummy.m"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6B7A980173F386E18C3B9BA1CAEB60AD /* UISideMenuNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UISideMenuNavigationController.swift; path = Pod/Classes/UISideMenuNavigationController.swift; sourceTree = "<group>"; };
 		7512D64C6D2E82D58A6A7111FDD9A27E /* Pods-MeadoWatch-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MeadoWatch-acknowledgements.markdown"; sourceTree = "<group>"; };
 		89630F7B78D03D430499D30ADB6676EB /* Pods-MeadoWatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MeadoWatch.debug.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		958CDAB18CDB02E3A19A00E7535FC8B9 /* Pods_MeadoWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MeadoWatch.framework; path = "Pods-MeadoWatch.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3879A18B938D96EAEA2B53CE5EE8F62 /* SideMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SideMenu.modulemap; sourceTree = "<group>"; };
+		B50383368D34E956A1418062AFFCA8B5 /* SideMenuManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuManager.swift; path = Pod/Classes/SideMenuManager.swift; sourceTree = "<group>"; };
+		C9AC0C9DF2086C54A4CF359ECA48668B /* SideMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SideMenu.xcconfig; sourceTree = "<group>"; };
 		CD4952137125884B3E4599236AB7349C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E764318E0E20BBC7DBABBFD84F6F9CF6 /* UITableViewVibrantCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableViewVibrantCell.swift; path = Pod/Classes/UITableViewVibrantCell.swift; sourceTree = "<group>"; };
+		EAFF01F0B638C0C365E1215AD226B339 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9F87205636B0B0E669AE9477C7FF8DB /* SideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		279F6A3413682F968E9008A67C174078 /* Frameworks */ = {
+		27BF3D3F25DB180BBF150F4A263A5BF3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DAD40EE682F2C225BAD5B428966A587 /* Foundation.framework in Frameworks */,
+				FEC20E3E9A238ADF46776662A926C05A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9679B555E200AFE94FE909E0B5AA38A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A851E7AFC88D8736DEE6157EC656AF1F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1D03E37ED5F317AC7CA752CF0B6EF80F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				01C18D9DB73A5F4AA7E1802670A610BB /* Pods_MeadoWatch.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		1DAC0E68883465CFFCA6DD83D9CE05B3 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -56,10 +84,25 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		241D9B598B52C63DD4AE10463EB93C4E /* Pods */ = {
+		34775B975F275B4200C72A940C7430CE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A37FBF3A24FDFDC42CF88456B31A5E93 /* SwiftGen */,
+				EAFF01F0B638C0C365E1215AD226B339 /* Info.plist */,
+				A3879A18B938D96EAEA2B53CE5EE8F62 /* SideMenu.modulemap */,
+				C9AC0C9DF2086C54A4CF359ECA48668B /* SideMenu.xcconfig */,
+				3995322265FE90475ADB0470FC16B15A /* SideMenu-dummy.m */,
+				F9F87205636B0B0E669AE9477C7FF8DB /* SideMenu-prefix.pch */,
+				067AE3AE4661FA6E2A58931B29FCDB61 /* SideMenu-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SideMenu";
+			sourceTree = "<group>";
+		};
+		52BE11F6DF8B5351192D4925A6C7BF7C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8155AC496B5B3F2C8D57EBA61801226 /* SideMenu */,
+				96ABAFF50E8BC362DE9CE56CED022AD2 /* SwiftGen */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -69,8 +112,8 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				241D9B598B52C63DD4AE10463EB93C4E /* Pods */,
-				1D03E37ED5F317AC7CA752CF0B6EF80F /* Products */,
+				52BE11F6DF8B5351192D4925A6C7BF7C /* Pods */,
+				CAA7525C4C48890941C2B67F381FBC2C /* Products */,
 				1DAC0E68883465CFFCA6DD83D9CE05B3 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -93,7 +136,7 @@
 			path = "Target Support Files/Pods-MeadoWatch";
 			sourceTree = "<group>";
 		};
-		A37FBF3A24FDFDC42CF88456B31A5E93 /* SwiftGen */ = {
+		96ABAFF50E8BC362DE9CE56CED022AD2 /* SwiftGen */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -109,6 +152,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CAA7525C4C48890941C2B67F381FBC2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				958CDAB18CDB02E3A19A00E7535FC8B9 /* Pods_MeadoWatch.framework */,
+				43F093FE9BFC73525969DE84B790E939 /* SideMenu.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -117,35 +169,74 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		D8155AC496B5B3F2C8D57EBA61801226 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				B50383368D34E956A1418062AFFCA8B5 /* SideMenuManager.swift */,
+				2C3B1E80B2576DDC3ADE55A2E4882C1B /* SideMenuTransition.swift */,
+				6B7A980173F386E18C3B9BA1CAEB60AD /* UISideMenuNavigationController.swift */,
+				E764318E0E20BBC7DBABBFD84F6F9CF6 /* UITableViewVibrantCell.swift */,
+				34775B975F275B4200C72A940C7430CE /* Support Files */,
+			);
+			name = SideMenu;
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6686BCA12CB8CC88880EC72B06800A86 /* Headers */ = {
+		1052B4F4FE5161B3DB41760E785C42E6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB3E798309D5313EC4A4E35A1BAD87EB /* Pods-MeadoWatch-umbrella.h in Headers */,
+				744285183289B57E1F21BF68449F1A90 /* Pods-MeadoWatch-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3577C830EBF586091E324BEE002D185 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12F8C9D45B81460C258051E729BD8D42 /* SideMenu-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D4A2474CEC67833BAF217D66070CD096 /* Pods-MeadoWatch */ = {
+		C3B2C926163C1F75B9399840235ABBB2 /* SideMenu */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B8BDEFF177BE684F4EB6E2BB16B1D622 /* Build configuration list for PBXNativeTarget "Pods-MeadoWatch" */;
+			buildConfigurationList = 1341D1C027B591D0DBB175A6AF2F1185 /* Build configuration list for PBXNativeTarget "SideMenu" */;
 			buildPhases = (
-				2B9F8158C4F6B312D5ABF66DC00F6FA9 /* Sources */,
-				279F6A3413682F968E9008A67C174078 /* Frameworks */,
-				6686BCA12CB8CC88880EC72B06800A86 /* Headers */,
+				5E00C556A4C767395E896CF54A944990 /* Sources */,
+				27BF3D3F25DB180BBF150F4A263A5BF3 /* Frameworks */,
+				F3577C830EBF586091E324BEE002D185 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = SideMenu;
+			productName = SideMenu;
+			productReference = 43F093FE9BFC73525969DE84B790E939 /* SideMenu.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C754A6CC3066AE64A20249E55BCCF806 /* Pods-MeadoWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27BD8F80E5FF2F29D119FF6AE49D6C3A /* Build configuration list for PBXNativeTarget "Pods-MeadoWatch" */;
+			buildPhases = (
+				57184D219302CB136CD567FBC9C5AB1B /* Sources */,
+				A9679B555E200AFE94FE909E0B5AA38A /* Frameworks */,
+				1052B4F4FE5161B3DB41760E785C42E6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F352F9FC033E9BD2092EFF69FBD27240 /* PBXTargetDependency */,
+			);
 			name = "Pods-MeadoWatch";
 			productName = "Pods-MeadoWatch";
-			productReference = 01C18D9DB73A5F4AA7E1802670A610BB /* Pods_MeadoWatch.framework */;
+			productReference = 958CDAB18CDB02E3A19A00E7535FC8B9 /* Pods_MeadoWatch.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -165,37 +256,59 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 1D03E37ED5F317AC7CA752CF0B6EF80F /* Products */;
+			productRefGroup = CAA7525C4C48890941C2B67F381FBC2C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D4A2474CEC67833BAF217D66070CD096 /* Pods-MeadoWatch */,
+				C754A6CC3066AE64A20249E55BCCF806 /* Pods-MeadoWatch */,
+				C3B2C926163C1F75B9399840235ABBB2 /* SideMenu */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2B9F8158C4F6B312D5ABF66DC00F6FA9 /* Sources */ = {
+		57184D219302CB136CD567FBC9C5AB1B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AA2B7D175F9911BCF82A644DF1A11F6 /* Pods-MeadoWatch-dummy.m in Sources */,
+				3E31F549428DDD25BFBD66CAB08C0AE0 /* Pods-MeadoWatch-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E00C556A4C767395E896CF54A944990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				818DE4A42E4B31ACB30D20DB5BC63015 /* SideMenu-dummy.m in Sources */,
+				B89F1C8E68AC0F3FA0628EC557DEC461 /* SideMenuManager.swift in Sources */,
+				096ABD0284B2DDBC65881D1C3D000E4B /* SideMenuTransition.swift in Sources */,
+				2B15CAFDDF7529BCC7140BD16DFAA918 /* UISideMenuNavigationController.swift in Sources */,
+				9804336A548E749213EE1159393C0416 /* UITableViewVibrantCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		F352F9FC033E9BD2092EFF69FBD27240 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SideMenu;
+			target = C3B2C926163C1F75B9399840235ABBB2 /* SideMenu */;
+			targetProxy = EC71934863320F7EEA8C2CA533B524C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		39C21060A7A3EE3D4858E5A6AB504C44 /* Release */ = {
+		3FF0AE3C5DB6C34504A1ED3E52AF7397 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 128D3662AD780F6A5799D1439B51A59E /* Pods-MeadoWatch.release.xcconfig */;
+			baseConfigurationReference = 89630F7B78D03D430499D30ADB6676EB /* Pods-MeadoWatch.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -208,7 +321,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MeadoWatch/Pods-MeadoWatch.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -216,11 +329,14 @@
 				PRODUCT_NAME = Pods_MeadoWatch;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		4E487F173E6C9664F4E9E26B9635D23C /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -270,42 +386,6 @@
 			};
 			name = Debug;
 		};
-		7761139C8451537681B4BC1FC953DA0E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89630F7B78D03D430499D30ADB6676EB /* Pods-MeadoWatch.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MeadoWatch/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MeadoWatch/Pods-MeadoWatch.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MeadoWatch;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -350,23 +430,139 @@
 			};
 			name = Release;
 		};
+		C5830A612535F3F5D0B59AF3A779D8B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9AC0C9DF2086C54A4CF359ECA48668B /* SideMenu.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SideMenu/SideMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SideMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SideMenu/SideMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SideMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DA7ED7FF16F16BCCECDD712CBF736337 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 128D3662AD780F6A5799D1439B51A59E /* Pods-MeadoWatch.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MeadoWatch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MeadoWatch/Pods-MeadoWatch.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MeadoWatch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E545DBC34F636FBD4F9918748C6C224B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9AC0C9DF2086C54A4CF359ECA48668B /* SideMenu.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SideMenu/SideMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SideMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SideMenu/SideMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SideMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1341D1C027B591D0DBB175A6AF2F1185 /* Build configuration list for PBXNativeTarget "SideMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E545DBC34F636FBD4F9918748C6C224B /* Debug */,
+				C5830A612535F3F5D0B59AF3A779D8B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27BD8F80E5FF2F29D119FF6AE49D6C3A /* Build configuration list for PBXNativeTarget "Pods-MeadoWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FF0AE3C5DB6C34504A1ED3E52AF7397 /* Debug */,
+				DA7ED7FF16F16BCCECDD712CBF736337 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4E487F173E6C9664F4E9E26B9635D23C /* Debug */,
 				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B8BDEFF177BE684F4EB6E2BB16B1D622 /* Build configuration list for PBXNativeTarget "Pods-MeadoWatch" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7761139C8451537681B4BC1FC953DA0E /* Debug */,
-				39C21060A7A3EE3D4858E5A6AB504C44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
