@@ -55,7 +55,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="1Ns-mk-4od"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Species" id="gcH-bN-hTS"/>
+                    <tabBarItem key="tabBarItem" title="Species" image="icon-plant" id="gcH-bN-hTS"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="tableView" destination="7Sb-i9-BxE" id="eaj-zW-rld"/>
@@ -66,4 +66,7 @@
             <point key="canvasLocation" x="28" y="113"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="icon-plant" width="29" height="30"/>
+    </resources>
 </document>

@@ -34,7 +34,7 @@
                             <constraint firstItem="6xI-d7-BoX" firstAttribute="leading" secondItem="30v-pR-G6R" secondAttribute="leading" id="kwr-Oq-PDG"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Overview" id="qRa-Wf-b5n"/>
+                    <tabBarItem key="tabBarItem" title="Overview" image="icon-newspaper" id="qRa-Wf-b5n"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="webview" destination="6xI-d7-BoX" id="1Pq-yI-rDM"/>
@@ -45,4 +45,7 @@
             <point key="canvasLocation" x="236" y="78"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="icon-newspaper" width="30" height="30"/>
+    </resources>
 </document>

@@ -55,7 +55,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ZgB-Ox-r2G"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Plots" id="Czg-ao-toY"/>
+                    <tabBarItem key="tabBarItem" title="Plots" image="icon-mappin" id="Czg-ao-toY"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="tableView" destination="Q7G-OD-xFS" id="Fwb-Ms-hBg"/>
@@ -66,4 +66,7 @@
             <point key="canvasLocation" x="269.60000000000002" y="115.59220389805098"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="icon-mappin" width="30" height="30"/>
+    </resources>
 </document>

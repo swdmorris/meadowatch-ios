@@ -6,6 +6,7 @@
 //  Copyright © 2018 Spencer Morris. All rights reserved.
 //
 
+import SideMenu
 import UIKit
 
 class MainTabBarController: UITabBarController {
@@ -33,5 +34,9 @@ class MainTabBarController: UITabBarController {
     private func commonInit() {
         tabBar.isHidden = true
         viewControllers = hikeNavigationControllers
+        
+        let storyboard = UIStoryboard(name: "SideMenu", bundle: Bundle.main)
+        let sideMenuNavigationController = storyboard.instantiateInitialViewController() as! UISideMenuNavigationController
+        SideMenuManager.menuLeftNavigationController = sideMenuNavigationController
     }
 }

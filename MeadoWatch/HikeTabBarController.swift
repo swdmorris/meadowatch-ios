@@ -6,6 +6,7 @@
 //  Copyright © 2018 Spencer Morris. All rights reserved.
 //
 
+import SideMenu
 import UIKit
 
 class HikeTabBarController: UITabBarController {
@@ -13,6 +14,9 @@ class HikeTabBarController: UITabBarController {
         didSet {
             // TODO: find a way to do this that doesn't lead to huge initial load time
             for controller in viewControllers ?? [] {
+                
+                // TODO: add side menu access
+                
                 if let mapController = controller as? MapController {
                     mapController.dataSource = hike
                 } else if let speciesController = controller as? SpeciesListController {

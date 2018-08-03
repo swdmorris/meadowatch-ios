@@ -36,7 +36,7 @@
                             <constraint firstItem="RdG-tJ-qO8" firstAttribute="top" secondItem="Gh3-Vp-B1y" secondAttribute="bottom" id="sbC-oz-23v"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Map" id="UW8-8f-bsl"/>
+                    <tabBarItem key="tabBarItem" title="Map" image="icon-map" id="UW8-8f-bsl"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="mapView" destination="Gh3-Vp-B1y" id="RyH-gR-n8v"/>
@@ -65,4 +65,7 @@
             <point key="canvasLocation" x="996" y="117"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="icon-map" width="30" height="30"/>
+    </resources>
 </document>

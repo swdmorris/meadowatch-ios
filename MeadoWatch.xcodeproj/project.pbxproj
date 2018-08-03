@@ -19,6 +19,8 @@
 		24332B4F1F285B8800E95A1C /* FlowerPlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24332B4E1F285B8800E95A1C /* FlowerPlot.swift */; };
 		245BE2711F1301BE00526306 /* TestGPX.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 245BE2701F1301BE00526306 /* TestGPX.gpx */; };
 		245BE2731F1301D200526306 /* GlacierBasinPlots.plist in Resources */ = {isa = PBXBuildFile; fileRef = 245BE2721F1301D200526306 /* GlacierBasinPlots.plist */; };
+		247B8D5420CC93D500AFE0BF /* SideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247B8D5320CC93D500AFE0BF /* SideMenuController.swift */; };
+		247B8D5620CC93E300AFE0BF /* SideMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 247B8D5520CC93E300AFE0BF /* SideMenu.storyboard */; };
 		249D10F21F21C1BF00F81115 /* GlacierBasin_FinalBooklet.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 249D10F11F21C1BF00F81115 /* GlacierBasin_FinalBooklet.pdf */; };
 		249D10F41F21C1C600F81115 /* ReflectionLakes_FinalBooklet.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 249D10F31F21C1C600F81115 /* ReflectionLakes_FinalBooklet.pdf */; };
 		24A3BCC420BCBA72003266D1 /* refl_lakes_species_08_sitka_valerian.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 24A3BCBA20BCBA6C003266D1 /* refl_lakes_species_08_sitka_valerian.pdf */; };
@@ -88,6 +90,8 @@
 		24332B4E1F285B8800E95A1C /* FlowerPlot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowerPlot.swift; sourceTree = "<group>"; };
 		245BE2701F1301BE00526306 /* TestGPX.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TestGPX.gpx; sourceTree = "<group>"; };
 		245BE2721F1301D200526306 /* GlacierBasinPlots.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GlacierBasinPlots.plist; sourceTree = "<group>"; };
+		247B8D5320CC93D500AFE0BF /* SideMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuController.swift; sourceTree = "<group>"; };
+		247B8D5520CC93E300AFE0BF /* SideMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SideMenu.storyboard; sourceTree = "<group>"; };
 		249D10F11F21C1BF00F81115 /* GlacierBasin_FinalBooklet.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = GlacierBasin_FinalBooklet.pdf; sourceTree = "<group>"; };
 		249D10F31F21C1C600F81115 /* ReflectionLakes_FinalBooklet.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ReflectionLakes_FinalBooklet.pdf; sourceTree = "<group>"; };
 		24A3BCBA20BCBA6C003266D1 /* refl_lakes_species_08_sitka_valerian.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = refl_lakes_species_08_sitka_valerian.pdf; sourceTree = "<group>"; };
@@ -301,6 +305,8 @@
 				24BD040220A416E80006B7A2 /* MainTabBarController.storyboard */,
 				24D2308A1F12E4D300987AC8 /* MainTableController.swift */,
 				24D230881F12DF2900987AC8 /* MainTable.storyboard */,
+				247B8D5320CC93D500AFE0BF /* SideMenuController.swift */,
+				247B8D5520CC93E300AFE0BF /* SideMenu.storyboard */,
 			);
 			name = Navigation;
 			sourceTree = "<group>";
@@ -442,6 +448,7 @@
 				24D230891F12DF2900987AC8 /* MainTable.storyboard in Resources */,
 				24A83DEF20A60DD100C97D0D /* PlotDetails.storyboard in Resources */,
 				24A3BCC420BCBA72003266D1 /* refl_lakes_species_08_sitka_valerian.pdf in Resources */,
+				247B8D5620CC93E300AFE0BF /* SideMenu.storyboard in Resources */,
 				24BD040320A416E80006B7A2 /* MainTabBarController.storyboard in Resources */,
 				249D10F41F21C1C600F81115 /* ReflectionLakes_FinalBooklet.pdf in Resources */,
 				24CF0BE720A4AE8E00739C10 /* SpeciesList.storyboard in Resources */,
@@ -556,6 +563,7 @@
 				2411FFF220AA91ED004918AB /* FlowerSpecies.swift in Sources */,
 				24D2306A1F12DA4200987AC8 /* MeadoWatch.xcdatamodeld in Sources */,
 				2411FFEE20AA8AF9004918AB /* PlotListController.swift in Sources */,
+				247B8D5420CC93D500AFE0BF /* SideMenuController.swift in Sources */,
 				24D230851F12DEF200987AC8 /* OverviewController.swift in Sources */,
 				2411FFEA20A61D5D004918AB /* ControllerExtensions.swift in Sources */,
 				24D230621F12DA4200987AC8 /* AppDelegate.swift in Sources */,

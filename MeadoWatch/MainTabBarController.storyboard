@@ -13,6 +13,7 @@
         <scene sceneID="pzW-Hp-gtG">
             <objects>
                 <tabBarController hidesBottomBarWhenPushed="YES" id="cbY-bA-eqc" customClass="MainTabBarController" customModule="MeadoWatch" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="ktU-zO-Kt8"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="MZh-7l-bIf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
